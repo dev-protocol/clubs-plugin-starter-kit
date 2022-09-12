@@ -1,10 +1,10 @@
 ---
-import { Admin, adminFactory, encode } from '@devprotocol/clubs-core'
+import Admin from '@devprotocol/clubs-core/admin'
+import { adminFactory } from '@devprotocol/clubs-core'
 import sTokensViewer from '../../../../src/index'
-import config from '../../../config'
 
 export const { getStaticPaths } = adminFactory({
-	config: () => encode(config),
+	config: () => import.meta.env.PUBLIC_CLUBS_CONFIG,
 	plugins: { sTokensViewer },
 })
 

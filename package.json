@@ -3,22 +3,37 @@
 	"version": "1.0.0",
 	"type": "module",
 	"description": "Template repository for using TypeScript",
+	"main": "dist/index.cjs",
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist/**/*.d.ts",
+		"dist/**/*.mjs",
+		"dist/**/*.cjs",
+		"!**/*.test.*",
+		"src"
+	],
 	"scripts": {
-		"test": "ava",
+		"test": "ava || echo 'skip'",
 		"preview": "astro --root preview dev",
-		"build": "tsc",
-		"watch": "tsc -w",
+		"build": "tsc && rollup -c",
 		"pretest": "yarn build",
 		"prebuild": "rimraf dist",
 		"lint": "yarn lint:eslint && yarn lint:format",
 		"lint:eslint": "eslint . --ext .ts,.js --fix",
 		"lint:format": "prettier --write '**/*.{ts,js,json,md,yml}'",
+		"prepack": "yarn test && yarn build",
 		"prepare": "husky install"
 	},
 	"author": "Dev Protocol",
 	"license": "MPL-2.0",
 	"dependencies": {
-		"@devprotocol/clubs-core": "0.6.2-alpha.13",
+		"@devprotocol/clubs-core": "0.6.2-alpha.17",
 		"@devprotocol/dev-kit": "6.8.7",
 		"@devprotocol/util-ts": "2.2.1",
 		"bignumber.js": "9.1.0",

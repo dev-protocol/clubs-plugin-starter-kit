@@ -11,7 +11,7 @@ import { ethers } from 'ethers'
 import { always } from 'ramda'
 import { default as List } from './pages/List.astro'
 import { default as Page } from './pages/Page.astro'
-// import { default as Admin } from './pages/Admin.astro'
+import { default as Admin } from './pages/Admin.astro'
 
 export const getPagePaths: ClubsFunctionGetPagePaths = async (options) => {
 	const slug = options.find(({ key }) => key === 'slug')
@@ -53,7 +53,12 @@ export const getPagePaths: ClubsFunctionGetPagePaths = async (options) => {
 		: []
 }
 
-export const getAdminPaths: ClubsFunctionGetAdminPaths = async () => []
+export const getAdminPaths: ClubsFunctionGetAdminPaths = async (options) => {
+	const slug = options.find(({ key }) => key === 'slug')
+		?.value as UndefinedOr<string>
+
+	return [{ paths: [slug ?? 'stokens'], component: Admin, props: { options } }]
+}
 
 export const meta: ClubsPluginMeta = { displayName: 'sTokens Viewer' }
 

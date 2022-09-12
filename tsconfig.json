@@ -1,8 +1,10 @@
 {
 	"extends": "astro/tsconfigs/strict",
 	"compilerOptions": {
-		"skipLibCheck": true,
+		"noEmit": false,
+		"outDir": "dist",
+		"declaration": true,
 		"types": ["astro/client"]
 	},
-	"include": ["src", "preview"]
+	"include": ["src", "preview", "config.mjs"]
 }

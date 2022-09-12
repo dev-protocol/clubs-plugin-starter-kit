@@ -1,5 +1,4 @@
 import dts from 'rollup-plugin-dts'
-import commonjs from '@rollup/plugin-commonjs'
 
 const astro = () => ({
 	name: 'astro',
@@ -15,7 +14,7 @@ const astro = () => ({
 
 export default [
 	{
-		input: 'dist/src/index.js',
+		input: 'dist/index.js',
 		output: [
 			{
 				file: 'dist/index.mjs',
@@ -26,10 +25,10 @@ export default [
 				format: 'cjs',
 			},
 		],
-		plugins: [commonjs(), astro()],
+		plugins: [astro()],
 	},
 	{
-		input: 'dist/src/index.d.ts',
+		input: 'dist/index.d.ts',
 		output: [{ file: 'dist/index.d.ts', format: 'es' }],
 		plugins: [dts(), astro()],
 	},
