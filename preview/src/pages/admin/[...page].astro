@@ -1,0 +1,30 @@
+---
+import { Admin, adminFactory, encode } from '@devprotocol/clubs-core'
+import sTokensViewer from '../../../../src/index'
+import config from '../../../config'
+
+export const { getStaticPaths } = adminFactory({
+	config: () => encode(config),
+	plugins: { sTokensViewer },
+})
+
+const Content = Astro.props.component
+---
+
+<Admin {...Astro.props}>
+	<Content {...Astro.props} />
+</Admin>
+
+<script type="module">
+	import { onSubmitConfig } from '@devprotocol/clubs-core'
+
+	onSubmitConfig((data, onFinish) => {
+		console.log(
+			`Detected a new ClubsConfiguration, but it is not saved because this app is just an example.`,
+			data
+		)
+		setTimeout(() => {
+			onFinish({ success: true })
+		}, 1000)
+	})
+</script>

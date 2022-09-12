@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Default.astro'
+import { pageFactory, encode } from '@devprotocol/clubs-core'
+import sTokensViewer from '../../../src/index'
+import config from '../../config'
+
+export const { getStaticPaths } = pageFactory({
+	config: () => encode(config),
+	plugins: { sTokensViewer },
+})
+
+const Content = Astro.props.component
+---
+
+<Layout>
+	<Content {...Astro.props} />
+</Layout>
