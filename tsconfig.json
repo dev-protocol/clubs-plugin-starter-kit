@@ -4,6 +4,7 @@
 		"noEmit": false,
 		"outDir": "dist",
 		"declaration": true,
+		"skipLibCheck": true,
 		"types": ["astro/client"]
 	},
 	"include": ["src", "preview", "config.mjs"]

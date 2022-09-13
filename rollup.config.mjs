@@ -1,11 +1,11 @@
-import dts from 'rollup-plugin-dts'
+import typescript from '@rollup/plugin-typescript'
 
 const astro = () => ({
 	name: 'astro',
 	resolveId(source) {
 		if (source.endsWith('.astro')) {
 			return {
-				id: `../src/layouts${source.replace('./', '/')}`,
+				id: source.replace('./', '../src/'),
 				external: true,
 			}
 		}
@@ -14,22 +14,13 @@ const astro = () => ({
 
 export default [
 	{
-		input: 'dist/index.js',
+		input: 'src/index.ts',
 		output: [
 			{
-				file: 'dist/index.mjs',
+				file: 'dist/index.js',
 				format: 'es',
 			},
-			{
-				file: 'dist/index.cjs',
-				format: 'cjs',
-			},
 		],
-		plugins: [astro()],
-	},
-	{
-		input: 'dist/index.d.ts',
-		output: [{ file: 'dist/index.d.ts', format: 'es' }],
-		plugins: [dts(), astro()],
+		plugins: [typescript(), astro()],
 	},
 ]
