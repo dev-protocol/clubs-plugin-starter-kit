@@ -1,6 +1,6 @@
 {
-	"name": "template-repos-ts",
-	"version": "1.0.0",
+	"name": "@devprotocol/clubs-plugin-starter-kit",
+	"version": "0.1.0",
 	"type": "module",
 	"description": "Template repository for using TypeScript",
 	"main": "dist/index.cjs",
