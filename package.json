@@ -39,7 +39,7 @@
 		"ramda": "0.28.0"
 	},
 	"devDependencies": {
-		"@astrojs/tailwind": "2.0.0",
+		"@astrojs/tailwind": "2.0.1",
 		"@astrojs/vue": "1.0.2",
 		"@ava/typescript": "3.0.1",
 		"@rollup/plugin-typescript": "8.5.0",
