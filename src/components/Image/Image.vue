@@ -1,20 +1,25 @@
+<script lang="ts" setup>
+import { computed } from 'vue';
+
+const props = defineProps({
+	src: {
+		type: String,
+		required: true,
+	},
+})
+
+const image = computed(() => {
+	const { src } = props
+	if (src.startsWith('ipfs://')) {
+		return `https://${src.replace('ipfs://', '')}.ipfs.nftstorage.link/`
+	}
+	return src
+})
+
+return { image }
+</script>
+
 <template>
 	<img :src="image" class="rounded" />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-	props: {
-		src: String,
-	},
-	computed: {
-		image() {
-			return this.src?.startsWith('ipfs:')
-				? `https://${this.src.replace('ipfs://', '')}.ipfs.nftstorage.link/`
-				: this.src
-		},
-	},
-})
-</script>
