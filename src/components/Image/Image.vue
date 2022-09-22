@@ -15,8 +15,6 @@ const image = computed(() => {
 	}
 	return src
 })
-
-return { image }
 </script>
 
 <template>

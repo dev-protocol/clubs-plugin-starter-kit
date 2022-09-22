@@ -38,8 +38,6 @@ const onChange = () => {
 		props.clubs.currentPluginIndex
 	)
 }
-
-return { slug, rpc, maxpage, onChange }
 </script>
 <template>
 	<h2 class="text-lg font-bold mb-16">sTokens Viewer</h2>

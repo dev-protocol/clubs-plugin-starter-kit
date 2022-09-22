@@ -11,7 +11,7 @@ const props = defineProps({
 	},
 })
 
-return { slug: props.slug, tokens: props.tokens }
+const { slug, tokens } = props
 </script>
 
 <template>

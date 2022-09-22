@@ -10,7 +10,7 @@ const props = defineProps({
 	},
 })
 
-return { token: props.token }
+const { token } = props
 </script>
 
 <template>
