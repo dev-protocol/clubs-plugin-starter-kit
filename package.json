@@ -40,7 +40,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/tailwind": "2.0.2",
-		"@astrojs/vue": "1.0.2",
+		"@astrojs/vue": "1.1.0",
 		"@ava/typescript": "3.0.1",
 		"@rollup/plugin-typescript": "8.5.0",
 		"@types/dotenv": "8.2.0",
