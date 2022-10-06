@@ -2,12 +2,6 @@
 import Layout from '../layouts/Default.astro'
 import { pageFactory } from '@devprotocol/clubs-core'
 import sTokensViewer from '../../../src/index'
-
-export const { getStaticPaths } = pageFactory({
-	config: () => import.meta.env.PUBLIC_CLUBS_CONFIG,
-	plugins: { sTokensViewer },
-})
-
 const Content = Astro.props.component
 ---
 
