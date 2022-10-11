@@ -3,10 +3,14 @@ import Admin from '@devprotocol/clubs-core/admin'
 import { adminFactory } from '@devprotocol/clubs-core'
 import sTokensViewer from '../../../../src/index'
 
-export const { getStaticPaths } = adminFactory({
-	config: () => import.meta.env.PUBLIC_CLUBS_CONFIG,
-	plugins: { sTokensViewer },
-})
+export async function getStaticPaths() {
+	const { getStaticPaths } = adminFactory({
+		config: () => import.meta.env.PUBLIC_CLUBS_CONFIG,
+		plugins: { sTokensViewer },
+	})
+
+	return getStaticPaths()
+}
 
 const Content = Astro.props.component
 ---
