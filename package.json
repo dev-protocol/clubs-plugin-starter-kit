@@ -60,7 +60,7 @@
 		"rollup": "3.1.0",
 		"tailwindcss": "3.1.8",
 		"typescript": "4.8.4",
-		"vue": "3.2.40"
+		"vue": "3.2.41"
 	},
 	"ava": {
 		"files": [
