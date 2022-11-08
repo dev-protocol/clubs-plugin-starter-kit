@@ -48,7 +48,7 @@
 		"@types/ramda": "0.28.19",
 		"@typescript-eslint/eslint-plugin": "5.42.0",
 		"@typescript-eslint/parser": "5.42.0",
-		"astro": "1.6.3",
+		"astro": "1.6.4",
 		"ava": "5.0.1",
 		"dotenv": "16.0.3",
 		"eslint": "8.27.0",
