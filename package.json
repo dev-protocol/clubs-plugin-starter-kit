@@ -31,7 +31,7 @@
 	"author": "Dev Protocol",
 	"license": "MPL-2.0",
 	"dependencies": {
-		"@devprotocol/clubs-core": "0.8.0",
+		"@devprotocol/clubs-core": "0.8.3",
 		"@devprotocol/dev-kit": "6.10.0",
 		"@devprotocol/util-ts": "2.2.1",
 		"bignumber.js": "9.1.0",
