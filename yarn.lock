@@ -545,6 +545,16 @@
     js-base64 "^3.7.2"
     ramda "^0.28.0"
 
+"@devprotocol/dev-kit@7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@devprotocol/dev-kit/-/dev-kit-7.0.1.tgz#0289dd2f4b197eaca054df08870ab8d88d4bec52"
+  integrity sha512-/5OjhEIx2IRmIqAlUXQaLLAel7vkpx+5Bw79Cqe08w3JreH2kYWlm58iY/vlja46+ngfaHZZfD8hc7wwddE6UQ==
+  dependencies:
+    "@devprotocol/util-ts" "3.0.0"
+    bignumber.js "9.1.1"
+    js-base64 "^3.7.2"
+    ramda "^0.28.0"
+
 "@devprotocol/elements@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@devprotocol/elements/-/elements-0.2.2.tgz#7325fb3354f2fb77c08f91634656a9e87ce0fa80"
