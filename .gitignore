@@ -83,12 +83,8 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# TypeScript output
+# Rollup output
 dist
-out
-*.js
-*.d.ts
-!env.d.ts
 
 # Azure Functions artifacts
 bin

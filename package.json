@@ -19,7 +19,7 @@
 	"scripts": {
 		"test": "ava || echo 'skip'",
 		"preview": "astro --root preview dev",
-		"build": "tsc && rollup -c",
+		"build": "rollup -c",
 		"pretest": "yarn build",
 		"prebuild": "rimraf dist",
 		"lint": "yarn lint:eslint && yarn lint:format",
@@ -56,6 +56,8 @@
 		"eslint-plugin-functional": "4.4.1",
 		"husky": "8.0.3",
 		"prettier": "2.8.1",
+		"prettier-plugin-astro": "^0.7.2",
+		"prettier-plugin-svelte": "^2.9.0",
 		"rimraf": "3.0.2",
 		"rollup": "3.9.1",
 		"tailwindcss": "3.2.4",

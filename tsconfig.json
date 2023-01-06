@@ -5,7 +5,8 @@
 		"outDir": "dist",
 		"declaration": true,
 		"skipLibCheck": true,
+		"resolveJsonModule": true,
 		"types": ["astro/client"]
 	},
-	"include": ["src", "preview", "config.mjs"]
+	"include": ["src", "preview", "config.js", "rollup.config.js"]
 }
