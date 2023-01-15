@@ -49,7 +49,7 @@
 		"@typescript-eslint/eslint-plugin": "5.48.1",
 		"@typescript-eslint/parser": "5.48.1",
 		"astro": "1.9.2",
-		"ava": "5.1.0",
+		"ava": "5.1.1",
 		"dotenv": "16.0.3",
 		"eslint": "8.32.0",
 		"eslint-config-prettier": "8.6.0",
