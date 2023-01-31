@@ -11,6 +11,10 @@ console.log(
 		propertyAddress: '',
 		plugins: [
 			{
+				name: 'theme',
+				options: [],
+			},
+			{
 				name: 'sTokensViewer',
 				options: [
 					{ key: 'slug', value: 'stokens' },

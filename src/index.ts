@@ -1,7 +1,8 @@
-import type {
+import {
 	ClubsFunctionGetAdminPaths,
 	ClubsFunctionGetPagePaths,
 	ClubsFunctionPlugin,
+	ClubsPluginCategory,
 	ClubsPluginMeta,
 	ClubsStaticPaths,
 } from '@devprotocol/clubs-core'
@@ -60,7 +61,10 @@ export const getAdminPaths: ClubsFunctionGetAdminPaths = async (options) => {
 	return [{ paths: [slug ?? 'stokens'], component: Admin, props: { options } }]
 }
 
-export const meta: ClubsPluginMeta = { displayName: 'sTokens Viewer' }
+export const meta: ClubsPluginMeta = {
+	displayName: 'sTokens Viewer',
+	category: ClubsPluginCategory.Uncategorized,
+}
 
 export default {
 	getPagePaths,
