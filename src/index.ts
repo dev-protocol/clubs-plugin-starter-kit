@@ -62,6 +62,7 @@ export const getAdminPaths: ClubsFunctionGetAdminPaths = async (options) => {
 }
 
 export const meta: ClubsPluginMeta = {
+	id: 'unique-and-descriptive-name-here',
 	displayName: 'sTokens Viewer',
 	category: ClubsPluginCategory.Uncategorized,
 }
