@@ -3,11 +3,11 @@ import typescript from '@rollup/plugin-typescript'
 
 const dir = 'dist'
 
-const useSrc = ({ dir, ext } = {}) => ({
+const useSrc = ({ dir: _dir, ext } = {}) => ({
 	name: 'local:useSrc',
 	resolveId(source, importer) {
 		if (ext.some((e) => source.endsWith(e))) {
-			const from = dir ?? dirname(importer)
+			const from = _dir ?? dirname(importer)
 			const importerDir = dirname(importer)
 			const original = resolve(importerDir, source)
 			const relativePath = relative(from, original)
