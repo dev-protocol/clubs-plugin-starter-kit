@@ -1,13 +1,13 @@
 ---
 import { Admin } from '@devprotocol/clubs-core/layouts'
 import { adminFactory } from '@devprotocol/clubs-core'
-import theme from '../../theme'
-import sTokensViewer from '../../../../src/index'
+import config from '../../../config'
+import plugins from '../../../plugins'
 
 export async function getStaticPaths() {
 	const { getStaticPaths } = adminFactory({
-		config: () => import.meta.env.PUBLIC_CLUBS_CONFIG,
-		plugins: { theme, sTokensViewer },
+		config,
+		plugins,
 	})
 
 	return getStaticPaths()

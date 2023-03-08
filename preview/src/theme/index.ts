@@ -1,10 +1,10 @@
 import {
 	type ClubsFunctionGetAdminPaths,
 	type ClubsFunctionGetPagePaths,
-	type ClubsPluginMeta,
 	type ClubsFunctionGetLayout,
 	type ClubsFunctionThemePlugin,
 	ClubsPluginCategory,
+	ClubsThemePluginMeta,
 } from '@devprotocol/clubs-core'
 import { default as Default } from './Default.astro'
 
@@ -16,7 +16,7 @@ export const getLayout: ClubsFunctionGetLayout = async () => ({
 	layout: Default,
 })
 
-export const meta: ClubsPluginMeta = {
+export const meta: ClubsThemePluginMeta = {
 	displayName: 'Example theme',
 	category: ClubsPluginCategory.Theme,
 	theme: {

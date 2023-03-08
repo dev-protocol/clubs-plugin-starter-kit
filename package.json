@@ -16,6 +16,9 @@
 		"!**/*.test.*",
 		"src"
 	],
+	"keywords": [
+		"clubs-plugin"
+	],
 	"scripts": {
 		"test": "ava || echo 'skip'",
 		"preview": "astro --root preview dev",
@@ -28,7 +31,7 @@
 		"prepack": "yarn test && yarn build",
 		"prepare": "husky install"
 	},
-	"author": "Dev Protocol",
+	"author": "",
 	"license": "MPL-2.0",
 	"dependencies": {
 		"@devprotocol/clubs-core": "0.34.0",
@@ -75,11 +78,5 @@
 			},
 			"compile": false
 		}
-	},
-	"repository": "git+https://github.com/dev-protocol/template-repos-ts.git",
-	"bugs": {
-		"url": "https://github.com/dev-protocol/template-repos-ts/issues"
-	},
-	"homepage": "https://github.com/dev-protocol/template-repos-ts#readme",
-	"private": true
+	}
 }

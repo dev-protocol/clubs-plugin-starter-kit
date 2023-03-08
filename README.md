@@ -1,20 +1,24 @@
-# template-repos-ts
+# Clubs Plugin Starter Kit
 
-Template repository for using TypeScript
+## Files and directories
 
-# Stack
+## src/
 
-- npm client is [yarn](https://github.com/yarnpkg/yarn)
-- Testing is [ava](https://github.com/avajs/ava)
-- Linting is [eslint](https://github.com/eslint/eslint)
-- Basic lint rule set is [eslint-plugin-functional](https://github.com/jonaskello/eslint-plugin-functional)
-- Formatter is [prettier](https://github.com/prettier/prettier)
-- Pre-install utility is [ramda](https://github.com/ramda/ramda)
+`src` directory manages all source files for this plugin you are developing.
 
-# Usage
+## preview/
 
-Create a repository using this template; just runs following command.
+`preview` directory has a minimal implementation of Clubs and serves locally to debug this plugin you are developing.
 
-```bash
-yarn
-```
+The directory contains some boilerplate files that do not need to be edited, and some files whose values can be rewritten to debug the plugin.
+
+The following files are intended to be rewritten for debugging purposes:
+
+- preview/config.ts
+- preview/plugins.ts
+
+The following files are boilerplate and there is no need to rewrite them bacically:
+
+- preview/astro.config.mjs
+- preview/tailwind.config.mjs
+- preview/src/\*
