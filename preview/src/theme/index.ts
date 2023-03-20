@@ -17,6 +17,7 @@ export const getLayout: ClubsFunctionGetLayout = async () => ({
 })
 
 export const meta: ClubsThemePluginMeta = {
+	id: 'example-theme',
 	displayName: 'Example theme',
 	category: ClubsPluginCategory.Theme,
 	theme: {

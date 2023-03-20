@@ -12,11 +12,11 @@ export default () =>
 		adminRolePoints: 50,
 		plugins: [
 			{
-				name: 'theme',
+				id: 'example-theme',
 				options: [],
 			},
 			{
-				name: 'sTokensViewer',
+				id: 'unique-and-descriptive-name-here',
 				options: [
 					{ key: 'slug', value: 'stokens' },
 					{ key: 'rpc', value: 'https://polygon-rpc.com/' },
