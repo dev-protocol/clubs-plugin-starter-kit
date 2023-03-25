@@ -34,13 +34,15 @@
 	"author": "",
 	"license": "MPL-2.0",
 	"dependencies": {
+		"@astrojs/svelte": "^2.1.0",
 		"@devprotocol/clubs-core": "0.37.1",
 		"@devprotocol/dev-kit": "7.3.2",
 		"@devprotocol/util-ts": "3.0.0",
 		"bignumber.js": "9.1.1",
 		"ethers": "5.7.2",
 		"ramda": "0.28.0",
-		"sass": "1.60.0"
+		"sass": "1.60.0",
+		"svelte": "^3.54.0"
 	},
 	"devDependencies": {
 		"@astrojs/tailwind": "3.1.1",
@@ -52,7 +54,7 @@
 		"@types/ramda": "0.28.23",
 		"@typescript-eslint/eslint-plugin": "5.56.0",
 		"@typescript-eslint/parser": "5.56.0",
-		"astro": "2.1.7",
+		"astro": "^2.1.0",
 		"ava": "5.2.0",
 		"dotenv": "16.0.3",
 		"eslint": "8.36.0",
