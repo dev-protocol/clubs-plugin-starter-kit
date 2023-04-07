@@ -16,6 +16,6 @@ const Content = Astro.props.component
 const Layout = Astro.props.layout
 ---
 
-<Layout>
+<Layout {...Astro.props}>
 	<Content {...Astro.props} />
 </Layout>
