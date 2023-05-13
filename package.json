@@ -63,7 +63,7 @@
 		"prettier-plugin-astro": "^0.8.0",
 		"prettier-plugin-svelte": "^2.9.0",
 		"rimraf": "5.0.0",
-		"rollup": "3.21.6",
+		"rollup": "3.21.7",
 		"tailwindcss": "3.3.2",
 		"typescript": "5.0.4",
 		"vue": "3.3.2"
