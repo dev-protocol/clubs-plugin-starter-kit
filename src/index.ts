@@ -8,7 +8,7 @@ import {
 } from '@devprotocol/clubs-core'
 import { clientsSTokens } from '@devprotocol/dev-kit/agent'
 import { UndefinedOr, whenDefined } from '@devprotocol/util-ts'
-import { ethers } from 'ethers'
+import { JsonRpcProvider } from 'ethers'
 import { always } from 'ramda'
 import { default as List } from './pages/List.astro'
 import { default as Page } from './pages/Page.astro'
@@ -23,10 +23,7 @@ export const getPagePaths: ClubsFunctionGetPagePaths = async (options) => {
 		(options.find(({ key }) => key === 'maxpage')
 			?.value as UndefinedOr<number>) ?? 10
 
-	const provider = whenDefined(
-		rpc,
-		(url) => new ethers.providers.JsonRpcProvider(url)
-	)
+	const provider = whenDefined(rpc, (url) => new JsonRpcProvider(url))
 	const clients = await whenDefined(provider, clientsSTokens)
 	const contract = whenDefined(clients, ([l1, l2]) => l1 || l2)
 	const tokens = await whenDefined(contract, (sTokens) =>
@@ -35,8 +32,8 @@ export const getPagePaths: ClubsFunctionGetPagePaths = async (options) => {
 				const id = i + 1
 				const token = await sTokens.tokenURI(id).catch(always(undefined))
 				return whenDefined(token, (item) => ({ id, ...item }))
-			})
-		)
+			}),
+		),
 	)
 	const secondaryPages = tokens
 		? (tokens.map((token) => ({

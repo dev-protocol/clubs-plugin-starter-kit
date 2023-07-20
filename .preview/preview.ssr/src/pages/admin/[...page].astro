@@ -1,0 +1,38 @@
+---
+import { Admin } from '@devprotocol/clubs-core/layouts'
+import { adminFactory } from '@devprotocol/clubs-core'
+import config from '../../../../config'
+import plugins from '../../../../plugins'
+
+const { page } = Astro.params
+const { getStaticPaths } = adminFactory({
+	config,
+	plugins,
+})
+const path = (await getStaticPaths()).find(({ params }) => params.page === page)
+
+const Content = path?.props.component
+---
+
+{
+	Content && (
+		<Admin {...path.props}>
+			<Content {...path.props} />
+		</Admin>
+	)
+}
+
+
+<script type="module">
+	import { onSubmitConfig } from '@devprotocol/clubs-core'
+
+	onSubmitConfig((data, onFinish) => {
+		console.log(
+			`Detected a new ClubsConfiguration, but it is not saved because this app is just an example.`,
+			data
+		)
+		setTimeout(() => {
+			onFinish({ success: true })
+		}, 1000)
+	})
+</script>

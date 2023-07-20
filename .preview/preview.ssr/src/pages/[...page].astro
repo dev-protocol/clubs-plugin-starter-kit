@@ -1,0 +1,23 @@
+---
+import { pageFactory } from '@devprotocol/clubs-core'
+import config from '../../../config'
+import plugins from '../../../plugins'
+
+const { page } = Astro.params
+const { getStaticPaths } = pageFactory({
+	config,
+	plugins,
+})
+const path = (await getStaticPaths()).find(({ params }) => params.page === page)
+
+const Content = path?.props.component
+const Layout = path?.props.layout
+---
+
+{
+	Layout && Content && (
+		<Layout {...path.props}>
+			<Content {...path.props} />
+		</Layout>
+	)
+}
