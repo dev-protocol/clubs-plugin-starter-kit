@@ -41,7 +41,7 @@
 		"bignumber.js": "9.1.1",
 		"ethers": "6.6.4",
 		"ramda": "0.29.0",
-		"sass": "1.64.0"
+		"sass": "1.64.1"
 	},
 	"devDependencies": {
 		"@astrojs/tailwind": "4.0.0",
