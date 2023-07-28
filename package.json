@@ -39,7 +39,7 @@
 		"@devprotocol/dev-kit": "8.1.0",
 		"@devprotocol/util-ts": "3.0.0",
 		"bignumber.js": "9.1.1",
-		"ethers": "6.6.6",
+		"ethers": "6.6.7",
 		"ramda": "0.29.0",
 		"sass": "1.64.1"
 	},
