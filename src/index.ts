@@ -1,13 +1,13 @@
-import {
+import type {
 	ClubsFunctionGetAdminPaths,
 	ClubsFunctionGetPagePaths,
 	ClubsFunctionPlugin,
-	ClubsPluginCategory,
 	ClubsPluginMeta,
 	ClubsStaticPaths,
 } from '@devprotocol/clubs-core'
+import { ClubsPluginCategory } from '@devprotocol/clubs-core'
 import { clientsSTokens } from '@devprotocol/dev-kit/agent'
-import { UndefinedOr, whenDefined } from '@devprotocol/util-ts'
+import { type UndefinedOr, whenDefined } from '@devprotocol/util-ts'
 import { JsonRpcProvider } from 'ethers'
 import { always } from 'ramda'
 import { default as List } from './pages/List.astro'
