@@ -6,7 +6,7 @@
 		"declaration": true,
 		"skipLibCheck": true,
 		"resolveJsonModule": true,
-		"importsNotUsedAsValues": "error",
+		"jsx": "preserve",
 		"types": ["astro/client"]
 	},
 	"include": ["src", "preview", "config.js", "rollup.config.js"]

@@ -10,9 +10,10 @@ import { clientsSTokens } from '@devprotocol/dev-kit/agent'
 import { type UndefinedOr, whenDefined } from '@devprotocol/util-ts'
 import { JsonRpcProvider } from 'ethers'
 import { always } from 'ramda'
-import { default as List } from './pages/List.astro'
-import { default as Page } from './pages/Page.astro'
-import { default as Admin } from './pages/Admin.astro'
+import List from './pages/List.astro'
+import Page from './pages/Page.astro'
+import Admin from './pages/Admin.astro'
+import Readme from './readme.astro'
 
 export const getPagePaths: ClubsFunctionGetPagePaths = async (options) => {
 	const slug = options.find(({ key }) => key === 'slug')
@@ -62,6 +63,7 @@ export const meta: ClubsPluginMeta = {
 	id: 'unique-and-descriptive-name-here',
 	displayName: 'sTokens Viewer',
 	category: ClubsPluginCategory.Uncategorized,
+	readme: Readme,
 }
 
 export default {
