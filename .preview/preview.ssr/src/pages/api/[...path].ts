@@ -1,4 +1,4 @@
-import { apiFactory } from '@devprotocol/clubs-core/factory'
+import { apiFactory } from '@devprotocol/clubs-core'
 import config from '../../../../config'
 import plugins from '../../../../plugins'
 

@@ -8,26 +8,27 @@ import {
 } from '@devprotocol/clubs-core'
 import { default as Default } from './Default.astro'
 
-export const getPagePaths: ClubsFunctionGetPagePaths = async () => []
+export const getPagePaths = (async () => []) satisfies ClubsFunctionGetPagePaths
 
-export const getAdminPaths: ClubsFunctionGetAdminPaths = async () => []
+export const getAdminPaths =
+	(async () => []) satisfies ClubsFunctionGetAdminPaths
 
-export const getLayout: ClubsFunctionGetLayout = async () => ({
+export const getLayout = (async () => ({
 	layout: Default,
-})
+})) satisfies ClubsFunctionGetLayout
 
-export const meta: ClubsThemePluginMeta = {
+export const meta = {
 	id: 'example-theme',
 	displayName: 'Example theme',
 	category: ClubsPluginCategory.Theme,
 	theme: {
 		previewImage: 'https://dummyimage.com/600x400/000/fff',
 	},
-}
+} satisfies ClubsThemePluginMeta
 
 export default {
 	getPagePaths,
 	getAdminPaths,
 	getLayout,
 	meta,
-} as ClubsFunctionThemePlugin
+} satisfies ClubsFunctionThemePlugin

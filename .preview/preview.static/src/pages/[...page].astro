@@ -1,16 +1,23 @@
 ---
-import { pageFactory } from '@devprotocol/clubs-core'
+import type { InferGetStaticPropsType } from 'astro'
+import {
+	type ClubsFunctionPageFactoryResult,
+	pageFactory,
+} from '@devprotocol/clubs-core'
 import config from '../../../config'
 import plugins from '../../../plugins'
 
-export async function getStaticPaths() {
-	const { getStaticPaths } = pageFactory({
-		config,
-		plugins,
-	})
-
-	return getStaticPaths()
+type Options = {
+	config: typeof config
+	plugins: typeof plugins
 }
+
+export const { getStaticPaths } = pageFactory({
+	config,
+	plugins,
+} satisfies Options) as ClubsFunctionPageFactoryResult<Options>
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>
 
 const Content = Astro.props.component
 const Layout = Astro.props.layout

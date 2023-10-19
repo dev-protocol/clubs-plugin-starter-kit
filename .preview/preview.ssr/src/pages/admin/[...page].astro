@@ -1,15 +1,30 @@
 ---
+import type { InferGetStaticPropsType } from 'astro'
+import {
+	type ClubsFunctionAdminFactoryResult,
+	type ClubsFunctionFactoryOptions,
+	type ClubsGetStaticPathsItem,
+	adminFactory,
+} from '@devprotocol/clubs-core'
 import { Admin } from '@devprotocol/clubs-core/layouts'
-import { adminFactory } from '@devprotocol/clubs-core'
 import config from '../../../../config'
 import plugins from '../../../../plugins'
 
 const { page } = Astro.params
-const { getStaticPaths } = adminFactory({
+const options = {
 	config,
 	plugins,
-})
-const path = (await getStaticPaths()).find(({ params }) => params.page === page)
+} satisfies ClubsFunctionFactoryOptions
+
+const { getStaticPaths } = adminFactory(
+	options,
+) as ClubsFunctionAdminFactoryResult<typeof options>
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>
+
+const path = (await getStaticPaths()).find(
+	({ params }) => params.page === page,
+) as ClubsGetStaticPathsItem<Props>
 
 const Content = path?.props.component
 ---
@@ -22,14 +37,13 @@ const Content = path?.props.component
 	)
 }
 
-
 <script type="module">
 	import { onSubmitConfig } from '@devprotocol/clubs-core'
 
 	onSubmitConfig((data, onFinish) => {
 		console.log(
 			`Detected a new ClubsConfiguration, but it is not saved because this app is just an example.`,
-			data
+			data,
 		)
 		setTimeout(() => {
 			onFinish({ success: true })

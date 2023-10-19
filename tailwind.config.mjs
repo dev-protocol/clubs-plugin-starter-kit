@@ -1,4 +1,4 @@
-import { clubs } from '@devprotocol/clubs-core/tailwind'
+import { tailwindPreset as clubs } from '@devprotocol/clubs-core'
 import typography from '@tailwindcss/typography'
 
 export default {

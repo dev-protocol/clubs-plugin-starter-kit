@@ -15,7 +15,7 @@ import Page from './pages/Page.astro'
 import Admin from './pages/Admin.astro'
 import Readme from './readme.astro'
 
-export const getPagePaths: ClubsFunctionGetPagePaths = async (options) => {
+export const getPagePaths = (async (options) => {
 	const slug = options.find(({ key }) => key === 'slug')
 		?.value as UndefinedOr<string>
 	const rpc = options.find(({ key }) => key === 'rpc')
@@ -50,24 +50,24 @@ export const getPagePaths: ClubsFunctionGetPagePaths = async (options) => {
 				...secondaryPages,
 		  ]
 		: []
-}
+}) satisfies ClubsFunctionGetPagePaths
 
-export const getAdminPaths: ClubsFunctionGetAdminPaths = async (options) => {
+export const getAdminPaths = (async (options) => {
 	const slug = options.find(({ key }) => key === 'slug')
 		?.value as UndefinedOr<string>
 
 	return [{ paths: [slug ?? 'stokens'], component: Admin, props: { options } }]
-}
+}) satisfies ClubsFunctionGetAdminPaths
 
-export const meta: ClubsPluginMeta = {
+export const meta = {
 	id: 'unique-and-descriptive-name-here',
 	displayName: 'sTokens Viewer',
 	category: ClubsPluginCategory.Uncategorized,
 	readme: Readme,
-}
+} satisfies ClubsPluginMeta
 
 export default {
 	getPagePaths,
 	getAdminPaths,
 	meta,
-} as ClubsFunctionPlugin
+} satisfies ClubsFunctionPlugin
