@@ -19,11 +19,11 @@ const { getStaticPaths } = pageFactory(
 	options,
 ) as ClubsFunctionPageFactoryResult<typeof options>
 
-type Props = InferGetStaticPropsType<typeof getStaticPaths>
-
 const path = (await getStaticPaths()).find(
 	({ params }) => params.page === page,
-) as ClubsGetStaticPathsItem<Props>
+) as
+	| ClubsGetStaticPathsItem<InferGetStaticPropsType<typeof getStaticPaths>>
+	| undefined
 
 const Content = path?.props.component
 const Layout = path?.props.layout
