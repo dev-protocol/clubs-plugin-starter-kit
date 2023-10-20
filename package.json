@@ -35,7 +35,7 @@
 	"author": "",
 	"license": "MPL-2.0",
 	"dependencies": {
-		"@devprotocol/dev-kit": "8.5.0",
+		"@devprotocol/dev-kit": "8.5.1",
 		"@devprotocol/util-ts": "4.0.0",
 		"bignumber.js": "9.1.2",
 		"ethers": "6.7.1",
