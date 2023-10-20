@@ -11,7 +11,6 @@
 		"eslint:recommended",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:functional/external-recommended",
 		"plugin:functional/all",
 		"prettier"
 	],
@@ -19,13 +18,13 @@
 		{
 			"files": ["**/*.ts"],
 			"rules": {
-				"functional/functional-parameters": "off"
+				"functional/prefer-immutable-types": "off"
 			}
 		},
 		{
 			"files": ["**/*.test.ts"],
 			"rules": {
-				"functional/no-expression-statement": "off",
+				"functional/no-conditional-statements": "off",
 				"functional/functional-parameters": "off",
 				"functional/no-return-void": "off",
 				"@typescript-eslint/prefer-readonly-parameter-types": "off",
@@ -35,9 +34,8 @@
 		{
 			"files": ["rollup.config.js"],
 			"rules": {
-				"functional/no-expression-statement": "off",
-				"functional/functional-parameters": "off",
-				"functional/no-conditional-statement": "off"
+				"functional/prefer-immutable-types": "off",
+				"functional/no-conditional-statements": "off"
 			}
 		}
 	]
