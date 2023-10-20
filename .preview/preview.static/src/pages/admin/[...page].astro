@@ -1,0 +1,42 @@
+---
+import type { InferGetStaticPropsType } from 'astro'
+import {
+	type ClubsFunctionAdminFactoryResult,
+	adminFactory,
+} from '@devprotocol/clubs-core'
+import { Admin } from '@devprotocol/clubs-core/layouts'
+import config from '../../../../config'
+import plugins from '../../../../plugins'
+
+type Options = {
+	config: typeof config
+	plugins: typeof plugins
+}
+
+export const { getStaticPaths } = adminFactory({
+	config,
+	plugins,
+} satisfies Options) as ClubsFunctionAdminFactoryResult<Options>
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>
+
+const Content = Astro.props.component
+---
+
+<Admin {...Astro.props}>
+	<Content {...Astro.props} />
+</Admin>
+
+<script type="module">
+	import { onSubmitConfig } from '@devprotocol/clubs-core'
+
+	onSubmitConfig((data, onFinish) => {
+		console.log(
+			`Detected a new ClubsConfiguration, but it is not saved because this app is just an example.`,
+			data,
+		)
+		setTimeout(() => {
+			onFinish({ success: true })
+		}, 1000)
+	})
+</script>

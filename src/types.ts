@@ -1,9 +1,9 @@
 export type Option =
-	| { readonly key: 'slug'; readonly value?: string }
-	| { readonly key: 'rpc'; readonly value?: string }
-	| { readonly key: 'maxpage'; readonly value?: number }
+	| Readonly<{ key: 'slug'; value?: string }>
+	| Readonly<{ key: 'rpc'; value?: string }>
+	| Readonly<{ key: 'maxpage'; value?: number }>
 
-export type TokenURIWithId = {
-	readonly id: number
-	readonly image: string
-}
+export type TokenURIWithId = Readonly<{
+	id: number
+	image: string
+}>

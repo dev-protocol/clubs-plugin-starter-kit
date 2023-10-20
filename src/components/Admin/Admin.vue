@@ -2,8 +2,8 @@
 import type { PropType } from 'vue'
 import type { ClubsPropsAdminPages } from '@devprotocol/clubs-core'
 import { setOptions } from '@devprotocol/clubs-core'
-import { Option } from '../../types';
-import { computed } from 'vue';
+import type { Option } from '../../types'
+import { computed } from 'vue'
 
 const props = defineProps({
 	options: {
@@ -35,7 +35,7 @@ const onChange = () => {
 			{ key: 'rpc', value: rpc.value },
 			{ key: 'maxpage', value: maxpage.value },
 		],
-		props.clubs.currentPluginIndex
+		props.clubs.currentPluginIndex,
 	)
 }
 </script>
@@ -43,16 +43,16 @@ const onChange = () => {
 	<h2 class="text-lg font-bold mb-16">sTokens Viewer</h2>
 	<form class="grid gap-16" @change="onChange">
 		<label class="grid gap-2">
-				Slug
-				<input type="text" v-model="slug" class="bg-black rounded p-2" />
+			Slug
+			<input type="text" v-model="slug" class="bg-black rounded p-2" />
 		</label>
 		<label class="grid gap-2">
-				RPC Endpoint
-				<input type="text" v-model="rpc" class="bg-black rounded p-2" />
+			RPC Endpoint
+			<input type="text" v-model="rpc" class="bg-black rounded p-2" />
 		</label>
 		<label class="grid gap-2">
-				Max items
-				<input type="number" v-model="maxpage" class="bg-black rounded p-2" />
+			Max items
+			<input type="number" v-model="maxpage" class="bg-black rounded p-2" />
 		</label>
 	</form>
 </template>
