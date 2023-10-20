@@ -18,7 +18,8 @@
 		{
 			"files": ["**/*.ts"],
 			"rules": {
-				"functional/prefer-immutable-types": "off"
+				"functional/prefer-immutable-types": "off",
+				"functional/functional-parameters": "off"
 			}
 		},
 		{
