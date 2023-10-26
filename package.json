@@ -50,7 +50,7 @@
 		"@astrojs/tailwind": "^5.0.0",
 		"@astrojs/vue": "^3.0.0",
 		"@ava/typescript": "4.1.0",
-		"@devprotocol/clubs-core": "2.1.1",
+		"@devprotocol/clubs-core": "2.1.9",
 		"@rollup/plugin-typescript": "11.1.5",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/dotenv": "8.2.0",
