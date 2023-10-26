@@ -40,7 +40,7 @@
 		"bignumber.js": "9.1.2",
 		"ethers": "6.8.0",
 		"ramda": "0.29.1",
-		"sass": "1.69.4"
+		"sass": "1.69.5"
 	},
 	"peerDependencies": {
 		"@devprotocol/clubs-core": "^2.1.1"
