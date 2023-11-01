@@ -98,9 +98,9 @@
     which-pm-runs "^1.1.0"
 
 "@astrojs/vue@^3.0.0":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@astrojs/vue/-/vue-3.0.2.tgz#9b9a092644041d08b1eac2d84573a401e685b73b"
-  integrity sha512-rU1VX0PyPOJLX8kI8yL92zCuLAURdrZe9FsPMna/QqoHoIVZAZO5EDPbRVKAFczsZQq1PjfZRFZk7H9qizcNGg==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@astrojs/vue/-/vue-3.0.3.tgz#bba7570be63f0eea49e741f431f456bff9ce4713"
+  integrity sha512-I0PyztA7+nB2+kt3j4BOavpmbmEdZdkxfulgKfoFxeCtCrjJ85PqyasuW4fyw5wO4uq4u30l89pbVf7+pS4rBg==
   dependencies:
     "@vitejs/plugin-vue" "^4.3.3"
     "@vitejs/plugin-vue-jsx" "^3.0.2"
@@ -1442,16 +1442,6 @@
     estree-walker "^2.0.2"
     source-map-js "^1.0.2"
 
-"@vue/compiler-core@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.3.6.tgz#ffc14517e0a7269983b9a93994df9669e9e03506"
-  integrity sha512-2JNjemwaNwf+MkkatATVZi7oAH1Hx0B04DdPH3ZoZ8vKC1xZVP7nl4HIsk8XYd3r+/52sqqoz9TWzYc3yE9dqA==
-  dependencies:
-    "@babel/parser" "^7.23.0"
-    "@vue/shared" "3.3.6"
-    estree-walker "^2.0.2"
-    source-map-js "^1.0.2"
-
 "@vue/compiler-core@3.3.7":
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.3.7.tgz#865a5734c971686d9737d85a0c5a08de045b6162"
@@ -1469,14 +1459,6 @@
   dependencies:
     "@vue/compiler-core" "3.3.4"
     "@vue/shared" "3.3.4"
-
-"@vue/compiler-dom@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.3.6.tgz#683420cc201c3a48cb0841467bf19a433ffbede6"
-  integrity sha512-1MxXcJYMHiTPexjLAJUkNs/Tw2eDf2tY3a0rL+LfuWyiKN2s6jvSwywH3PWD8bKICjfebX3GWx2Os8jkRDq3Ng==
-  dependencies:
-    "@vue/compiler-core" "3.3.6"
-    "@vue/shared" "3.3.6"
 
 "@vue/compiler-dom@3.3.7":
   version "3.3.7"
@@ -1502,7 +1484,7 @@
     postcss "^8.1.10"
     source-map-js "^1.0.2"
 
-"@vue/compiler-sfc@3.3.7":
+"@vue/compiler-sfc@3.3.7", "@vue/compiler-sfc@^3.3.4":
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.3.7.tgz#219d04b3013c7b15fbc536e2279e07810b731cc2"
   integrity sha512-7pfldWy/J75U/ZyYIXRVqvLRw3vmfxDo2YLMwVtWVNew8Sm8d6wodM+OYFq4ll/UxfqVr0XKiVwti32PCrruAw==
@@ -1518,22 +1500,6 @@
     postcss "^8.4.31"
     source-map-js "^1.0.2"
 
-"@vue/compiler-sfc@^3.3.4":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.3.6.tgz#00dce2e7aa569101009c5eedec4a69e2f831d8cc"
-  integrity sha512-/Kms6du2h1VrXFreuZmlvQej8B1zenBqIohP0690IUBkJjsFvJxY0crcvVRJ0UhMgSR9dewB+khdR1DfbpArJA==
-  dependencies:
-    "@babel/parser" "^7.23.0"
-    "@vue/compiler-core" "3.3.6"
-    "@vue/compiler-dom" "3.3.6"
-    "@vue/compiler-ssr" "3.3.6"
-    "@vue/reactivity-transform" "3.3.6"
-    "@vue/shared" "3.3.6"
-    estree-walker "^2.0.2"
-    magic-string "^0.30.5"
-    postcss "^8.4.31"
-    source-map-js "^1.0.2"
-
 "@vue/compiler-ssr@3.3.4":
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.3.4.tgz#9d1379abffa4f2b0cd844174ceec4a9721138777"
@@ -1541,14 +1507,6 @@
   dependencies:
     "@vue/compiler-dom" "3.3.4"
     "@vue/shared" "3.3.4"
-
-"@vue/compiler-ssr@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.3.6.tgz#d767602563f2596a03b44b3dea4a32c715f64915"
-  integrity sha512-QTIHAfDCHhjXlYGkUg5KH7YwYtdUM1vcFl/FxFDlD6d0nXAmnjizka3HITp8DGudzHndv2PjKVS44vqqy0vP4w==
-  dependencies:
-    "@vue/compiler-dom" "3.3.6"
-    "@vue/shared" "3.3.6"
 
 "@vue/compiler-ssr@3.3.7":
   version "3.3.7"
@@ -1568,17 +1526,6 @@
     "@vue/shared" "3.3.4"
     estree-walker "^2.0.2"
     magic-string "^0.30.0"
-
-"@vue/reactivity-transform@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@vue/reactivity-transform/-/reactivity-transform-3.3.6.tgz#29d615455992d253b8f21b47d084445b5d3f916d"
-  integrity sha512-RlJl4dHfeO7EuzU1iJOsrlqWyJfHTkJbvYz/IOJWqu8dlCNWtxWX377WI0VsbAgBizjwD+3ZjdnvSyyFW1YVng==
-  dependencies:
-    "@babel/parser" "^7.23.0"
-    "@vue/compiler-core" "3.3.6"
-    "@vue/shared" "3.3.6"
-    estree-walker "^2.0.2"
-    magic-string "^0.30.5"
 
 "@vue/reactivity-transform@3.3.7":
   version "3.3.7"
@@ -1659,11 +1606,6 @@
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.4.tgz#06e83c5027f464eef861c329be81454bc8b70780"
   integrity sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==
-
-"@vue/shared@3.3.6":
-  version "3.3.6"
-  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.3.6.tgz#bd97c22972c6519250069297d01cbed077054b7e"
-  integrity sha512-Xno5pEqg8SVhomD0kTSmfh30ZEmV/+jZtyh39q6QflrjdJCXah5lrnOLi9KB6a5k5aAHXMXjoMnxlzUkCNfWLQ==
 
 "@vue/shared@3.3.7":
   version "3.3.7"
@@ -2121,9 +2063,9 @@ caniuse-lite@^1.0.30001538:
   integrity sha512-vtBAez47BoGMMzlbYhfXrMV1kvRF2WP/lqiMuDu1Sb4EE4LKEgjopFDSRtZfdVnslNRpOqV/woE+Xgrwj6VQlg==
 
 caniuse-lite@^1.0.30001541:
-  version "1.0.30001554"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001554.tgz#ba80d88dff9acbc0cd4b7535fc30e0191c5e2e2a"
-  integrity sha512-A2E3U//MBwbJVzebddm1YfNp7Nud5Ip+IPn4BozBmn4KqVX7AvluoIDFWjsv5OkGnKUXQVmMSoMKLa3ScCblcQ==
+  version "1.0.30001559"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001559.tgz#95a982440d3d314c471db68d02664fb7536c5a30"
+  integrity sha512-cPiMKZgqgkg5LY3/ntGeLFUpi6tzddBNS58A4tnTgQw1zON7u2sZMU7SzOeVH4tj20++9ggL+V6FDOFMTaFFYA==
 
 cbor@^8.1.0:
   version "8.1.0"
@@ -2569,9 +2511,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.567"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.567.tgz#c92e8fbc2bd15df3068d92571733a218a5413add"
-  integrity sha512-8KR114CAYQ4/r5EIEsOmOMqQ9j0MRbJZR3aXD/KFA8RuKzyoUB4XrUCg+l8RUGqTVQgKNIgTpjaG8YHRPAbX2w==
+  version "1.4.572"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.572.tgz#ed9876658998138fe9e3aa47ecfa0bf914192a86"
+  integrity sha512-RlFobl4D3ieetbnR+2EpxdzFl9h0RAJkPK3pfiwMug2nhBin2ZCsGIAJWdpNniLz43sgXam/CgipOmvTA+rUiA==
 
 elliptic@6.5.4:
   version "6.5.4"
