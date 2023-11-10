@@ -442,10 +442,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@devprotocol/clubs-core@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-2.2.1.tgz#ea6e9cfb8a4a19e2d6938ffefcc7ed2331c651fa"
-  integrity sha512-4At62sXj1DyFG+/v8/qTlwzQAUkrNG7IvnvwJqTohK6J1zkQfFMIIpAivslvG8yIdPAgely1+d2hYbDDR+REgw==
+"@devprotocol/clubs-core@2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-2.3.3.tgz#39f20c7276d14b814932cfa0292874a95319d983"
+  integrity sha512-cuv4gBjQ1QCicYZCOtIfh/DYoeaz5pNqfFV9Yf/DPiMK4AuxkUdln3ttqcQhfI81JDN2DrL64x/rcwAxxveMBw==
   dependencies:
     "@devprotocol/dev-kit" "8.6.0"
     "@devprotocol/elements" "1.1.0"
@@ -454,7 +454,6 @@
     "@ethersproject/abstract-provider" "^5.7.0"
     "@metamask/detect-provider" "^2.0.0"
     dompurify "^3.0.6"
-    ethers "6.8.1"
     js-base64 "^3.7.2"
     lit "^3.0.0"
     marked "^9.1.2"
