@@ -40,19 +40,19 @@ const onChange = () => {
 }
 </script>
 <template>
-	<h2 class="text-lg font-bold mb-16">sTokens Viewer</h2>
+	<h2 class="mb-16 text-lg font-bold">sTokens Viewer</h2>
 	<form class="grid gap-16" @change="onChange">
 		<label class="grid gap-2">
 			Slug
-			<input type="text" v-model="slug" class="bg-black rounded p-2" />
+			<input type="text" v-model="slug" class="rounded bg-black p-2" />
 		</label>
 		<label class="grid gap-2">
 			RPC Endpoint
-			<input type="text" v-model="rpc" class="bg-black rounded p-2" />
+			<input type="text" v-model="rpc" class="rounded bg-black p-2" />
 		</label>
 		<label class="grid gap-2">
 			Max items
-			<input type="number" v-model="maxpage" class="bg-black rounded p-2" />
+			<input type="number" v-model="maxpage" class="rounded bg-black p-2" />
 		</label>
 	</form>
 </template>
