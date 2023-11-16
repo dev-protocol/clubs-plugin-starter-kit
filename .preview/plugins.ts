@@ -1,4 +1,4 @@
 import theme from './theme'
-import sTokensViewer from '../src/index'
+import thisPlugin from '../src/index'
 
-export default [theme, sTokensViewer]
+export default [theme, thisPlugin]

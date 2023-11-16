@@ -2,5 +2,9 @@
 	"semi": false,
 	"singleQuote": true,
 	"useTabs": true,
-	"plugins": ["prettier-plugin-astro", "prettier-plugin-svelte"]
+	"plugins": [
+		"prettier-plugin-astro",
+		"prettier-plugin-svelte",
+		"prettier-plugin-tailwindcss"
+	]
 }
