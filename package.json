@@ -47,7 +47,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "^0.3.1",
-		"@astrojs/svelte": "^4.0.3",
+		"@astrojs/svelte": "^5.0.0",
 		"@astrojs/tailwind": "^5.0.0",
 		"@astrojs/vue": "^3.0.0",
 		"@devprotocol/clubs-core": "2.4.0",
