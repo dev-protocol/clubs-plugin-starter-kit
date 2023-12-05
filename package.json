@@ -20,11 +20,10 @@
 		"clubs-plugin"
 	],
 	"scripts": {
-		"test": "ava || echo 'skip'",
+		"test": "vitest",
 		"preview": "astro --root .preview/preview.ssr dev",
 		"preview:static": "astro --root .preview/preview.static dev",
 		"build": "rollup -c",
-		"pretest": "yarn build",
 		"prebuild": "rimraf dist",
 		"lint": "yarn lint:eslint && yarn lint:format",
 		"lint:eslint": "eslint . --ext .ts,.js --fix",
@@ -51,7 +50,6 @@
 		"@astrojs/svelte": "^4.0.3",
 		"@astrojs/tailwind": "^5.0.0",
 		"@astrojs/vue": "^3.0.0",
-		"@ava/typescript": "4.1.0",
 		"@devprotocol/clubs-core": "2.4.0",
 		"@rollup/plugin-typescript": "11.1.5",
 		"@tailwindcss/typography": "^0.5.10",
@@ -61,7 +59,6 @@
 		"@typescript-eslint/eslint-plugin": "6.13.2",
 		"@typescript-eslint/parser": "6.13.2",
 		"astro": "^3.0.12",
-		"ava": "6.0.0",
 		"dotenv": "16.3.1",
 		"eslint": "8.55.0",
 		"eslint-config-prettier": "9.1.0",
@@ -78,18 +75,8 @@
 		"svelte-check": "^3.6.0",
 		"tailwindcss": "3.3.6",
 		"typescript": "5.3.2",
+		"vitest": "^1.0.1",
 		"vue": "3.3.10",
 		"vue-tsc": "^1.8.22"
-	},
-	"ava": {
-		"files": [
-			"**/*.test.ts"
-		],
-		"typescript": {
-			"rewritePaths": {
-				"/": "dist/"
-			},
-			"compile": false
-		}
 	}
 }

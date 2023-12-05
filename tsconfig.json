@@ -13,6 +13,7 @@
 		"preview",
 		"config.js",
 		"rollup.config.js",
-		"tailwind.config.mjs"
+		"tailwind.config.mjs",
+		"vitest.config.ts"
 	]
 }
