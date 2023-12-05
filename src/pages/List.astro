@@ -1,5 +1,11 @@
 ---
-import List from '../components/List/List.vue'
+import List_ from '../components/List/List.vue'
+import type { TokenURIWithId } from '../types'
+
+type Props = {
+	slug: string
+	tokens: TokenURIWithId[]
+}
 ---
 
-<List client:load {...Astro.props} />
+<List_ client:load {...Astro.props} />

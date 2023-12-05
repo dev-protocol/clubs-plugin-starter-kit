@@ -16,6 +16,17 @@ const props = defineProps({
 	},
 })
 
+const onChange = () => {
+	setOptions(
+		[
+			{ key: 'slug', value: slug.value },
+			{ key: 'rpc', value: rpc.value },
+			{ key: 'maxpage', value: maxpage.value },
+		],
+		props.clubs.currentPluginIndex,
+	)
+}
+
 const slug = computed(() => {
 	return props.options.find(({ key }) => key === 'slug')?.value
 })
@@ -27,18 +38,8 @@ const rpc = computed(() => {
 const maxpage = computed(() => {
 	return props.options.find(({ key }) => key === 'maxpage')?.value
 })
-
-const onChange = () => {
-	setOptions(
-		[
-			{ key: 'slug', value: slug.value },
-			{ key: 'rpc', value: rpc.value },
-			{ key: 'maxpage', value: maxpage.value },
-		],
-		props.clubs.currentPluginIndex,
-	)
-}
 </script>
+
 <template>
 	<h2 class="mb-16 text-lg font-bold">sTokens Viewer</h2>
 	<form class="grid gap-16" @change="onChange">

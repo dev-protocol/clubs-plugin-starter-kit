@@ -1,5 +1,11 @@
 ---
-import Admin from '../components/Admin/Admin.vue'
+import Admin_ from '../components/Admin/Admin.vue'
+import type { ClubsPropsAdminPages } from '@devprotocol/clubs-core'
+import type { Option } from '../types'
+
+type Props = ClubsPropsAdminPages & {
+	options: Option[]
+}
 ---
 
-<Admin client:load {...Astro.props} />
+<Admin_ client:load {...Astro.props} />
