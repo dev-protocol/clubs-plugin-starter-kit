@@ -132,15 +132,15 @@
     is-wsl "^3.0.0"
     which-pm-runs "^1.1.0"
 
-"@astrojs/vue@^3.0.0":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@astrojs/vue/-/vue-3.0.4.tgz#a7af4b15e80ce5bac524fd10ab408abdc1738041"
-  integrity sha512-+kuONslRcfXbwlZOwdl+9XYJ0HKfPQ8SHnmk4Uf3ZNscJfjptob3z0mrIaCRqIgNNWJHsY2xLZovishGQ+lAow==
+"@astrojs/vue@^4.0.0":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/vue/-/vue-4.0.2.tgz#b0d4f6a9996b097c4974940f1e7000fe0e4ac82f"
+  integrity sha512-h//xjXSBRZCLZjf0eyA4RMA6NE4DXyj2WGKwajtazDFWWi9phqD3B+jzosADDJx3XtltCRddZ/znObqZDE2caA==
   dependencies:
-    "@vitejs/plugin-vue" "^4.3.3"
-    "@vitejs/plugin-vue-jsx" "^3.0.2"
+    "@vitejs/plugin-vue" "^4.5.0"
+    "@vitejs/plugin-vue-jsx" "^3.1.0"
     "@vue/babel-plugin-jsx" "^1.1.5"
-    "@vue/compiler-sfc" "^3.3.4"
+    "@vue/compiler-sfc" "^3.3.8"
 
 "@babel/code-frame@^7.22.13", "@babel/code-frame@^7.23.5":
   version "7.23.5"
@@ -1374,7 +1374,7 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@vitejs/plugin-vue-jsx@^3.0.2":
+"@vitejs/plugin-vue-jsx@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-3.1.0.tgz#9953fd9456539e1f0f253bf0fcd1289e66c67cd1"
   integrity sha512-w9M6F3LSEU5kszVb9An2/MmXNxocAnUb3WhRr8bHlimhDrXNt6n6D2nJQR3UXpGlZHh/EsgouOHCsM8V3Ln+WA==
@@ -1383,7 +1383,7 @@
     "@babel/plugin-transform-typescript" "^7.23.3"
     "@vue/babel-plugin-jsx" "^1.1.5"
 
-"@vitejs/plugin-vue@^4.3.3":
+"@vitejs/plugin-vue@^4.5.0":
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-4.5.1.tgz#84815bfeb46928c03a9ed765e4a8425c22345e15"
   integrity sha512-DaUzYFr+2UGDG7VSSdShKa9sIWYBa1LL8KC0MNOf2H5LjcTPjob0x8LbkqXWmAtbANJCkpiQTj66UVcQkN2s3g==
@@ -1566,7 +1566,7 @@
     "@vue/compiler-core" "3.3.10"
     "@vue/shared" "3.3.10"
 
-"@vue/compiler-sfc@3.3.10", "@vue/compiler-sfc@^3.3.4":
+"@vue/compiler-sfc@3.3.10", "@vue/compiler-sfc@^3.3.8":
   version "3.3.10"
   resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.3.10.tgz#8eb97d42f276089ec58fd0565ef3a813bceeaa87"
   integrity sha512-xpcTe7Rw7QefOTRFFTlcfzozccvjM40dT45JtrE3onGm/jBLZ0JhpKu3jkV7rbDFLeeagR/5RlJ2Y9SvyS0lAg==
