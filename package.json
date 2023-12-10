@@ -65,7 +65,7 @@
 		"eslint-plugin-functional": "6.0.0",
 		"ethers": "6.9.0",
 		"husky": "8.0.3",
-		"prettier": "3.1.0",
+		"prettier": "3.1.1",
 		"prettier-plugin-astro": "^0.12.0",
 		"prettier-plugin-svelte": "^3.0.0",
 		"prettier-plugin-tailwindcss": "^0.5.7",
