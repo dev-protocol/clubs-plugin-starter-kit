@@ -133,9 +133,9 @@
     which-pm-runs "^1.1.0"
 
 "@astrojs/vue@^4.0.0":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@astrojs/vue/-/vue-4.0.3.tgz#08fb7b7e97386fa03557b5b5dccc9d73191a9054"
-  integrity sha512-BujFhnw/bvyWhTFzfcjdR4XDdlShjB09AV6jDv+v6SX8tbx/IAB1EWbzkbYNrTMae3fPKNVsCdNLjX1gMg/P2A==
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@astrojs/vue/-/vue-4.0.4.tgz#77381f5ba30b3427db60fd06ba326d65b62fe3f2"
+  integrity sha512-Ju09f0x27TOCi84r7h0ZNlQLbbdZabyMYmuGAMPc4p7v4sD+hseCQ1RoReyFMiISgKM1xOPfZ9UnFjiEmqifeg==
   dependencies:
     "@vitejs/plugin-vue" "^4.5.0"
     "@vitejs/plugin-vue-jsx" "^3.1.0"
@@ -2505,9 +2505,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.601:
-  version "1.4.613"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.613.tgz#529e4fc65576ecfd055d7d4619fade4fac446af2"
-  integrity sha512-r4x5+FowKG6q+/Wj0W9nidx7QO31BJwmR2uEo+Qh3YLGQ8SbBAFuDFpTxzly/I2gsbrFwBuIjrMp423L3O5U3w==
+  version "1.4.614"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.614.tgz#2fe789d61fa09cb875569f37c309d0c2701f91c0"
+  integrity sha512-X4ze/9Sc3QWs6h92yerwqv7aB/uU8vCjZcrMjA8N9R1pjMFRe44dLsck5FzLilOYvcXuDn93B+bpGYyufc70gQ==
 
 elliptic@6.5.4:
   version "6.5.4"
