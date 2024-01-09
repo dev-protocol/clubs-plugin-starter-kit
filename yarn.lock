@@ -26,11 +26,11 @@
     "@jridgewell/trace-mapping" "^0.3.9"
 
 "@astrojs/check@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/check/-/check-0.4.0.tgz#f49dcd311749ba109b8f30426bf188d01650a819"
-  integrity sha512-hpHweo/9c9f2hYAUdqjGPOIWt6w/9eHHgzS9g8BhqsUgGs9EJdAndSzM4rErR7WCjZOt0hHSzG6HF0CkSogDtA==
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/check/-/check-0.4.1.tgz#1ff60045202a57d5ca1c9c7a0fbecbf44474c8d2"
+  integrity sha512-XEsuU4TlWkgcsvdeessq5mXLXV1fejtxIioCPv/FfhTzb1bDYe2BtLiSBK+rFTyD9Hl686YOas9AGNMJcpoRsw==
   dependencies:
-    "@astrojs/language-server" "^2.6.0"
+    "@astrojs/language-server" "^2.6.2"
     chokidar "^3.5.3"
     fast-glob "^3.3.1"
     kleur "^4.1.5"
@@ -51,10 +51,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/internal-helpers/-/internal-helpers-0.2.1.tgz#4e2e6aabaa9819f17119aa10f413c4d6122c94cf"
   integrity sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==
 
-"@astrojs/language-server@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/language-server/-/language-server-2.6.0.tgz#63ea75510c0df53dc0725502df2e3060659c7522"
-  integrity sha512-AkakYB5PaJOedW6cvkARludQ6p14kDwLDSu+tzUrYU2KreMx0Je1H2DC6gSL6tF20f+ckkZO3GifHpvbkAgrwg==
+"@astrojs/language-server@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/language-server/-/language-server-2.6.2.tgz#d83ff8966041b22fbcf1c1bf858c292219a6d131"
+  integrity sha512-RYzPRhS/WBXK5JtfR+0+nGj+N3VbJd5jU/uSNUev9baUx/RLmUwDk1f6Oy8QDEfDDLAr76Ig8YeDD/nxPdBSLw==
   dependencies:
     "@astrojs/compiler" "^2.4.0"
     "@jridgewell/sourcemap-codec" "^1.4.15"
@@ -5784,9 +5784,9 @@ typesafe-path@^0.2.2:
   integrity sha512-OJabfkAg1WLZSqJAJ0Z6Sdt3utnbzr/jh+NAHoyWHJe8CMSy79Gm085094M9nvTPy22KzTVn5Zq5mbapCI/hPA==
 
 typescript-auto-import-cache@^0.3.0:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/typescript-auto-import-cache/-/typescript-auto-import-cache-0.3.1.tgz#073ededc27ea8cb7a7e516248cf8ff17036b42a3"
-  integrity sha512-ujC5E2gT3Sf3Dzfg5QYgb8NkZNxFQI12W6rk5U/TbkDFXyvIb9YENic+hsNoVDmKEmlRTUjRRD8RCjLMIx1rxg==
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/typescript-auto-import-cache/-/typescript-auto-import-cache-0.3.2.tgz#89b1ab7cb6786b8e18dda735a30ec1e7d48a2679"
+  integrity sha512-+laqe5SFL1vN62FPOOJSUDTZxtgsoOXjneYOXIpx5rQ4UMiN89NAtJLpqLqyebv9fgQ/IMeeTX+mQyRnwvJzvg==
   dependencies:
     semver "^7.3.8"
 
