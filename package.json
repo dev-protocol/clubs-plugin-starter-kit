@@ -55,7 +55,7 @@
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/dotenv": "8.2.0",
 		"@types/node": "20.11.5",
-		"@types/ramda": "0.29.9",
+		"@types/ramda": "0.29.10",
 		"@typescript-eslint/eslint-plugin": "6.19.0",
 		"@typescript-eslint/parser": "6.19.0",
 		"astro": "^4.0.0",
