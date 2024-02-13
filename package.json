@@ -59,7 +59,7 @@
 		"@typescript-eslint/eslint-plugin": "7.0.1",
 		"@typescript-eslint/parser": "7.0.1",
 		"astro": "^4.0.0",
-		"dotenv": "16.4.3",
+		"dotenv": "16.4.4",
 		"eslint": "8.56.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-plugin-functional": "6.0.0",
