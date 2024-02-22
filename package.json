@@ -54,7 +54,7 @@
 		"@rollup/plugin-typescript": "11.1.6",
 		"@tailwindcss/typography": "^0.5.10",
 		"@types/dotenv": "8.2.0",
-		"@types/node": "20.11.19",
+		"@types/node": "20.11.20",
 		"@types/ramda": "0.29.10",
 		"@typescript-eslint/eslint-plugin": "7.0.2",
 		"@typescript-eslint/parser": "7.0.2",
