@@ -106,9 +106,9 @@
     prismjs "^1.29.0"
 
 "@astrojs/svelte@^5.0.0":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@astrojs/svelte/-/svelte-5.0.3.tgz#538c6c56757bed1109be63631ec971fa281b77c9"
-  integrity sha512-6TUBRUxmsEczKPBT6oDUAfvzuFCmITuhZfKPT5ZtOOyj9XOVnEnj/Iobd3ajKUbpWNYX7qZVAd1KMkmJc1Nhsg==
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/svelte/-/svelte-5.1.0.tgz#f93d9dcd0b16cbc9ef5b6933a63450eb04f4a044"
+  integrity sha512-1f0wkFkHs+1vcCliaEB1j9SYEU/n5ZYTAASv5Rkq6nvjNFRrnPuXLQCYIYFqdGGqFm6UPdgKpJBFbFFeQlr4yA==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^3.0.0"
     svelte2tsx "^0.6.25"
@@ -1071,7 +1071,7 @@
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
   integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
-"@sveltejs/vite-plugin-svelte-inspector@^2.0.0-next.0 || ^2.0.0":
+"@sveltejs/vite-plugin-svelte-inspector@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte-inspector/-/vite-plugin-svelte-inspector-2.0.0.tgz#365afaa0dd63517838ce4686a3dc3982be348a9b"
   integrity sha512-gjr9ZFg1BSlIpfZ4PRewigrvYmHWbDrq2uvvPB1AmTWKuM+dI1JXQSUu2pIrYLb/QncyiIGkFDFKTwJ0XqQZZg==
@@ -1079,11 +1079,11 @@
     debug "^4.3.4"
 
 "@sveltejs/vite-plugin-svelte@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-3.0.1.tgz#475d3496a2a1c7fb4ec6ee3a4d3f0af01fb052e1"
-  integrity sha512-CGURX6Ps+TkOovK6xV+Y2rn8JKa8ZPUHPZ/NKgCxAmgBrXReavzFl8aOSCj3kQ1xqT7yGJj53hjcV/gqwDAaWA==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-3.0.2.tgz#5c33534d07130283cff92304f627010387c11af0"
+  integrity sha512-MpmF/cju2HqUls50WyTHQBZUV3ovV/Uk8k66AN2gwHogNAG8wnW8xtZDhzNBsFJJuvmq1qnzA5kE7YfMJNFv2Q==
   dependencies:
-    "@sveltejs/vite-plugin-svelte-inspector" "^2.0.0-next.0 || ^2.0.0"
+    "@sveltejs/vite-plugin-svelte-inspector" "^2.0.0"
     debug "^4.3.4"
     deepmerge "^4.3.1"
     kleur "^4.1.5"
