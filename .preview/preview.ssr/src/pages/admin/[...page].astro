@@ -5,7 +5,9 @@ import {
 	type ClubsFunctionFactoryOptions,
 	type ClubsGetStaticPathsItem,
 	adminFactory,
+	routerFactory,
 } from '@devprotocol/clubs-core'
+import type { UndefinedOr } from '@devprotocol/util-ts'
 import { Admin } from '@devprotocol/clubs-core/layouts'
 import config from '../../../../config'
 import plugins from '../../../../plugins'
@@ -20,11 +22,10 @@ const { getStaticPaths } = adminFactory(
 	options,
 ) as ClubsFunctionAdminFactoryResult<typeof options>
 
-const path = (await getStaticPaths()).find(
-	({ params }) => params.page === page,
-) as
-	| ClubsGetStaticPathsItem<InferGetStaticPropsType<typeof getStaticPaths>>
-	| undefined
+const router = routerFactory(await getStaticPaths(), (p) => p.params.page)
+const path = router(page) as UndefinedOr<
+	ClubsGetStaticPathsItem<InferGetStaticPropsType<typeof getStaticPaths>>
+>
 
 const Content = path?.props.component
 ---
