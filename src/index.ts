@@ -41,14 +41,14 @@ export const getPagePaths = (async (options) => {
 				paths: [slug, token?.id],
 				props: { token },
 				component: Page,
-		  })) as ClubsStaticPaths)
+			})) as ClubsStaticPaths)
 		: []
 
 	return slug && tokens
 		? [
 				{ paths: [slug], component: List, props: { slug, tokens } },
 				...secondaryPages,
-		  ]
+			]
 		: []
 }) satisfies ClubsFunctionGetPagePaths
 
