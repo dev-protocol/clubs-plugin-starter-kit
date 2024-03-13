@@ -451,14 +451,14 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@devprotocol/clubs-core@3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-3.6.0.tgz#63cb702d8c976623d953052e28b866a6338a1db3"
-  integrity sha512-RIGm+9GOInKbkCk4vmB0TjXK2p8ijMTQj8q93NEE2qu6l7qNsBoBnqyshqndTRNQ2hgxAzDHeHHMR7WvK5QiYg==
+"@devprotocol/clubs-core@3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-3.7.0.tgz#ec46d77d07c66e5efc3b154838e311f2836f012f"
+  integrity sha512-AoKppHseQ03BnilMd3Xq3mNCRLJIA4CbvVfF3+9h8lOB8PNVQPy1R+PAbZ5I6eRdi0c4+nbojNfvekmzywAtpw==
   dependencies:
     "@devprotocol/dev-kit" "8.6.0"
     "@devprotocol/elements" "1.1.0"
-    "@devprotocol/hashi" "2.2.1"
+    "@devprotocol/hashi" "2.3.1"
     "@devprotocol/util-ts" "4.0.0"
     "@ethersproject/abstract-provider" "^5.7.0"
     "@metamask/detect-provider" "^2.0.0"
@@ -491,10 +491,10 @@
   resolved "https://registry.yarnpkg.com/@devprotocol/elements/-/elements-1.1.0.tgz#009ed288f2e884356c4c28e7657d70dfa1d5002e"
   integrity sha512-btlwtISEftGl6YT2cvI4eyheeoTyCcwWTaieMMNSCDkV1mhwJhmbGJLSrKSr/H9DHQPm0APK300rGE7XVoWVVg==
 
-"@devprotocol/hashi@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@devprotocol/hashi/-/hashi-2.2.1.tgz#975ba827fd5bb9af66c195d4dd1eba803cb11169"
-  integrity sha512-k4TqwnxWCTQCvFieZnlt4JyWHOWKLXEVaRk8zZDuqaE3sqGq0a793LRjzRXL+tAlmZTVyS8bl5JuYgkIEnB1Vw==
+"@devprotocol/hashi@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@devprotocol/hashi/-/hashi-2.3.1.tgz#e73b1fb74a3a040986e30c59e8f62c836848e351"
+  integrity sha512-LKsU0N1l3tN6btp3zz8KKEtEsKMK+HVzFttuEAs1nUT0ZY3WfdchD9T5Z8dhArbucZ29vZ/HjkM/GICila8ikQ==
   dependencies:
     "@matteusan/sentro" "0.1.25"
 
