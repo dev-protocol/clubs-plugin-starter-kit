@@ -63,7 +63,7 @@
 		"eslint": "8.57.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-plugin-functional": "6.5.1",
-		"ethers": "6.12.0",
+		"ethers": "6.12.1",
 		"husky": "9.0.11",
 		"prettier": "3.2.5",
 		"prettier-plugin-astro": "^0.13.0",
