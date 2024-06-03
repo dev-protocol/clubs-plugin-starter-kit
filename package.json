@@ -38,7 +38,7 @@
 		"@devprotocol/dev-kit": "8.6.1",
 		"@devprotocol/util-ts": "4.0.0",
 		"bignumber.js": "9.1.2",
-		"ramda": "0.30.0",
+		"ramda": "0.30.1",
 		"sass": "1.77.4"
 	},
 	"peerDependencies": {
