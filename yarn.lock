@@ -629,10 +629,10 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
-"@devprotocol/clubs-core@3.17.5":
-  version "3.17.5"
-  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-3.17.5.tgz#0de3093004056d67e15783acf5b2e900b4eb6974"
-  integrity sha512-bQ39Ftw6lgSDdNaOjNgP1BWc3OulC1+Zv06B/6+X/fLx6bMutKXEQGT+VVlPbjI2Ye0QYPxeCIDnMJE290/Dew==
+"@devprotocol/clubs-core@3.18.0":
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-3.18.0.tgz#e9ab832b8d9d3c2d4b6cf3b93c328574f7269437"
+  integrity sha512-O5JkuRpvdNujoTphJt+dlK854GMr53zlb4NS2jQtLJ5/fgQRf8cYpjINNBu2hrzIL7NsWDSos39sUIeNgCmK+g==
   dependencies:
     "@devprotocol/dev-kit" "8.6.2"
     "@devprotocol/elements" "1.5.3"
@@ -640,6 +640,7 @@
     "@devprotocol/util-ts" "4.0.0"
     "@ethersproject/abstract-provider" "^5.7.0"
     "@metamask/detect-provider" "^2.0.0"
+    "@vercel/blob" "^0.23.4"
     axios "^1.6.7"
     bignumber.js "^9.1.2"
     isomorphic-dompurify "2.14.0"
@@ -1031,6 +1032,11 @@
     "@ethersproject/logger" "^5.7.0"
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
+
+"@fastify/busboy@^2.0.0":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.1.tgz#b9da6a878a371829a0502c9b6c1c143ef6663f4d"
+  integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
 
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
@@ -1765,6 +1771,17 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
+"@vercel/blob@^0.23.4":
+  version "0.23.4"
+  resolved "https://registry.yarnpkg.com/@vercel/blob/-/blob-0.23.4.tgz#0ac106833ba239d3439a005162ba68d510ca31aa"
+  integrity sha512-cOU2e01RWZXFyc/OVRq+zZg38m34bcxpQk5insKp3Td9akNWThrXiF2URFHpRlm4fbaQ/l7pPSOB5nkLq+t6pw==
+  dependencies:
+    async-retry "^1.3.3"
+    bytes "^3.1.2"
+    is-buffer "^2.0.5"
+    is-plain-object "^5.0.0"
+    undici "^5.28.4"
+
 "@vitejs/plugin-vue-jsx@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-4.0.0.tgz#7bb65d57153ebf63b2e6ab0cc81029e82206036c"
@@ -2451,6 +2468,13 @@ astro@^4.0.0:
   optionalDependencies:
     sharp "^0.33.3"
 
+async-retry@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/async-retry/-/async-retry-1.3.3.tgz#0e7f36c04d8478e7a58bdbed80cedf977785f280"
+  integrity sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==
+  dependencies:
+    retry "0.13.1"
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
@@ -2604,6 +2628,11 @@ bundle-name@^4.1.0:
   integrity sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==
   dependencies:
     run-applescript "^7.0.0"
+
+bytes@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
+  integrity sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==
 
 cac@^6.7.14:
   version "6.7.14"
@@ -3928,6 +3957,11 @@ is-binary-path@~2.1.0:
   dependencies:
     binary-extensions "^2.0.0"
 
+is-buffer@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
+  integrity sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==
+
 is-core-module@^2.13.0:
   version "2.13.1"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.13.1.tgz#ad0d7532c6fea9da1ebdc82742d74525c6273384"
@@ -3997,6 +4031,11 @@ is-plain-obj@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/is-plain-obj/-/is-plain-obj-4.1.0.tgz#d65025edec3657ce032fd7db63c97883eaed71f0"
   integrity sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==
+
+is-plain-object@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-5.0.0.tgz#4427f50ab3429e9025ea7d52e9043a9ef4159344"
+  integrity sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==
 
 is-potential-custom-element-name@^1.0.1:
   version "1.0.1"
@@ -5635,6 +5674,11 @@ retext@^9.0.0:
     retext-stringify "^4.0.0"
     unified "^11.0.0"
 
+retry@0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/retry/-/retry-0.13.1.tgz#185b1587acf67919d63b357349e03537b2484658"
+  integrity sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==
+
 reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
@@ -6377,6 +6421,13 @@ undici-types@~6.19.2:
   version "6.19.6"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.6.tgz#e218c3df0987f4c0e0008ca00d6b6472d9b89b36"
   integrity sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==
+
+undici@^5.28.4:
+  version "5.28.4"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.28.4.tgz#6b280408edb6a1a604a9b20340f45b422e373068"
+  integrity sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==
+  dependencies:
+    "@fastify/busboy" "^2.0.0"
 
 unified@^11.0.0, unified@^11.0.4, unified@^11.0.5:
   version "11.0.5"
