@@ -629,14 +629,14 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
-"@devprotocol/clubs-core@3.19.2":
-  version "3.19.2"
-  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-3.19.2.tgz#acbe63e798414456a515d5bc1f6943d7a0ba6a6e"
-  integrity sha512-T/OmRGvZAcBcAHB9Qx5jMfwLYvblDZc7b8AxayaF+HFxfqrhF0/1DSrTTJSZM4BdHHDtmHyyqA3QCV9rxg/L6A==
+"@devprotocol/clubs-core@3.19.3":
+  version "3.19.3"
+  resolved "https://registry.yarnpkg.com/@devprotocol/clubs-core/-/clubs-core-3.19.3.tgz#a2bcd8a083deda2822b5b5257e317d13cebc9c8b"
+  integrity sha512-iuTzfycWNvo61Okely3HGa19gUJ8aXpLYHpv9ZVKsAXNbVHaNs2yFp7xLqi1rRRMXOTtdCdvLCBQtD/W8oT5MA==
   dependencies:
     "@devprotocol/dev-kit" "8.6.2"
     "@devprotocol/elements" "1.5.3"
-    "@devprotocol/hashi" "2.3.1"
+    "@devprotocol/hashi" "2.3.4"
     "@devprotocol/util-ts" "4.0.0"
     "@ethersproject/abstract-provider" "^5.7.0"
     "@metamask/detect-provider" "^2.0.0"
@@ -685,10 +685,10 @@
     "@aggre/ullr" "^3.2.0"
     lit "^3.0.0"
 
-"@devprotocol/hashi@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@devprotocol/hashi/-/hashi-2.3.1.tgz#e73b1fb74a3a040986e30c59e8f62c836848e351"
-  integrity sha512-LKsU0N1l3tN6btp3zz8KKEtEsKMK+HVzFttuEAs1nUT0ZY3WfdchD9T5Z8dhArbucZ29vZ/HjkM/GICila8ikQ==
+"@devprotocol/hashi@2.3.4":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@devprotocol/hashi/-/hashi-2.3.4.tgz#681ff4aebbbafed757d8854a40afc824be1601f4"
+  integrity sha512-wbyriYx+akOACxpoiVaTxJhNRjgrTPMNJmWgaHFBKHiOm01ZBun+T8ductgmR5U8DdSxmP/apQuLqf/ohjMmzg==
   dependencies:
     "@matteusan/sentro" "0.1.25"
 
