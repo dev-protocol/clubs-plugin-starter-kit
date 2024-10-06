@@ -1,50 +1,29 @@
-import typescriptEslint from '@typescript-eslint/eslint-plugin'
+import eslint from '@eslint/js'
+import tseslint from 'typescript-eslint'
+import prettier from 'eslint-config-prettier'
 import functional from 'eslint-plugin-functional'
-import tsParser from '@typescript-eslint/parser'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
-import js from '@eslint/js'
-import { FlatCompat } from '@eslint/eslintrc'
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const compat = new FlatCompat({
-	baseDirectory: __dirname,
-	recommendedConfig: js.configs.recommended,
-	allConfig: js.configs.all,
-})
-
-export default [
+export default tseslint.config(
 	{
-		ignores: ['**/node_modules', '**/dist'],
-	},
-	...compat.extends(
-		'eslint:recommended',
-		'plugin:@typescript-eslint/eslint-recommended',
-		'plugin:@typescript-eslint/recommended',
-		'plugin:functional/all',
-		'prettier',
-	),
-	{
-		plugins: {
-			'@typescript-eslint': typescriptEslint,
-			functional,
-		},
-
+		files: ['**/*.ts'],
+		extends: [
+			functional.configs.all,
+			prettier,
+			eslint.configs.recommended,
+			// your other plugin configs here
+		],
 		languageOptions: {
-			globals: {},
-			parser: tsParser,
-			ecmaVersion: 5,
-			sourceType: 'script',
-
+			parser: tseslint.parser,
 			parserOptions: {
-				project: 'tsconfig.json',
+				projectService: true,
 			},
+		},
+		rules: {
+			// any rule configs here
 		},
 	},
 	{
 		files: ['**/*.ts'],
-
 		rules: {
 			'functional/prefer-immutable-types': 'off',
 			'functional/functional-parameters': 'off',
@@ -52,22 +31,9 @@ export default [
 	},
 	{
 		files: ['**/*.test.ts'],
-
-		rules: {
-			'functional/no-conditional-statements': 'off',
-			'functional/no-expression-statements': 'off',
-			'functional/functional-parameters': 'off',
-			'functional/no-return-void': 'off',
-			'@typescript-eslint/prefer-readonly-parameter-types': 'off',
-			'@typescript-eslint/no-explicit-any': 'off',
-		},
+		extends: [
+			functional.configs.off,
+			// your other plugin configs here
+		],
 	},
-	{
-		files: ['**/rollup.config.js'],
-
-		rules: {
-			'functional/prefer-immutable-types': 'off',
-			'functional/no-conditional-statements': 'off',
-		},
-	},
-]
+)

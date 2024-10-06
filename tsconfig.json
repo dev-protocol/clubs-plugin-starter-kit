@@ -1,6 +1,7 @@
 {
 	"extends": "astro/tsconfigs/strict",
 	"compilerOptions": {
+		"lib": ["ESNext"],
 		"outDir": "dist",
 		"declaration": true,
 		"skipLibCheck": true,
@@ -10,7 +11,7 @@
 	},
 	"include": [
 		"src",
-		"preview",
+		".preview",
 		"config.js",
 		"rollup.config.js",
 		"tailwind.config.mjs",

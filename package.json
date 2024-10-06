@@ -64,7 +64,7 @@
 		"dotenv": "16.4.5",
 		"eslint": "^9.12.0",
 		"eslint-config-prettier": "9.1.0",
-		"eslint-plugin-functional": "6.6.3",
+		"eslint-plugin-functional": "^7.0.2",
 		"ethers": "6.13.3",
 		"husky": "9.1.6",
 		"prettier": "3.3.3",
