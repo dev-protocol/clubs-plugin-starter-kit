@@ -4,7 +4,7 @@ import {
 	type ClubsFunctionGetLayout,
 	type ClubsFunctionThemePlugin,
 	ClubsPluginCategory,
-	ClubsThemePluginMeta,
+	type ClubsThemePluginMeta,
 } from '@devprotocol/clubs-core'
 import { default as Default } from './Default.astro'
 
