@@ -5,12 +5,11 @@ import functional from 'eslint-plugin-functional'
 
 export default tseslint.config(
 	{
-		files: ['**/*.ts'],
+		files: ['**/*.{ts,tsx,mts}'],
 		extends: [
-			functional.configs.all,
-			prettier,
 			eslint.configs.recommended,
-			// your other plugin configs here
+			functional.configs.recommended,
+			prettier,
 		],
 		languageOptions: {
 			parser: tseslint.parser,
@@ -18,22 +17,10 @@ export default tseslint.config(
 				projectService: true,
 			},
 		},
-		rules: {
-			// any rule configs here
-		},
 	},
 	{
-		files: ['**/*.ts'],
-		rules: {
-			'functional/prefer-immutable-types': 'off',
-			'functional/functional-parameters': 'off',
-		},
+		files: ['**/*.test.ts', '**/*.{js,mjs,cjs}'],
+		extends: [functional.configs.off],
 	},
-	{
-		files: ['**/*.test.ts'],
-		extends: [
-			functional.configs.off,
-			// your other plugin configs here
-		],
-	},
+	{ ignores: ['dist'] },
 )

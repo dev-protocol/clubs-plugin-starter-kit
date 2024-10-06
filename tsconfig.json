@@ -10,9 +10,8 @@
 		"verbatimModuleSyntax": true
 	},
 	"include": [
-		"src",
-		".preview",
-		"config.js",
+		"src/**/*",
+		".preview/**/*",
 		"rollup.config.js",
 		"tailwind.config.mjs",
 		"vitest.config.ts"
