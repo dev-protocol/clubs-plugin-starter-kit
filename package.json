@@ -29,7 +29,7 @@
 		"lint:eslint": "eslint . --fix",
 		"lint:format": "prettier --write '**/*.{ts,js,tsx,jsx,astro,vue,svelte,json,md,yml}'",
 		"prepack": "yarn test && yarn build",
-		"prepare": "husky install",
+		"prepare": "husky",
 		"typecheck": "astro check && tsc --noEmit && svelte-check && vue-tsc --noEmit --p tsconfig.vue.json"
 	},
 	"author": "",
