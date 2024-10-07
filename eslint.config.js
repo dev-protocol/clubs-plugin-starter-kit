@@ -2,6 +2,7 @@ import eslint from '@eslint/js'
 import tseslint from 'typescript-eslint'
 import prettier from 'eslint-config-prettier'
 import functional from 'eslint-plugin-functional'
+import globals from 'globals'
 
 export default tseslint.config(
 	{
@@ -16,6 +17,11 @@ export default tseslint.config(
 			parserOptions: {
 				projectService: true,
 			},
+			globals: { ...globals.browser, ...globals.node },
+		},
+		rules: {
+			'functional/prefer-immutable-types': 'warn',
+			'no-unused-vars': 'off',
 		},
 	},
 	{
