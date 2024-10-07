@@ -9,6 +9,7 @@ export default tseslint.config(
 		files: ['**/*.{ts,tsx,mts}'],
 		extends: [
 			eslint.configs.recommended,
+			...tseslint.configs.recommended,
 			functional.configs.recommended,
 			prettier,
 		],
@@ -27,6 +28,9 @@ export default tseslint.config(
 	{
 		files: ['**/*.test.ts', '**/*.{js,mjs,cjs}'],
 		extends: [functional.configs.off],
+		rules: {
+			'@typescript-eslint/no-explicit-any': 'off',
+		},
 	},
 	{ ignores: ['dist'] },
 )
