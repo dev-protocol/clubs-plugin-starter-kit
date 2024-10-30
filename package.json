@@ -6,14 +6,16 @@
 	"main": "dist/index.js",
 	"exports": {
 		".": {
-			"default": "./dist/index.js"
+			"default": "./dist/index.js",
+			"types": "./dist/index.d.ts"
 		}
 	},
-	"types": "./dist/src/index.d.ts",
+	"types": "./dist/index.d.ts",
 	"files": [
-		"dist/**/*.d.ts",
-		"dist/**/*.js",
+		"dist/*.d.ts",
+		"dist/*.js",
 		"!**/*.test.*",
+		"!dist/vitest.*",
 		"src"
 	],
 	"keywords": [
