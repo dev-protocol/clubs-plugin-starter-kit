@@ -3,6 +3,6 @@ import typography from '@tailwindcss/typography'
 
 export default {
 	presets: [clubs],
-	content: [...clubs.content, 'preview/src/**/*'],
+	content: [...clubs.content, '.preview/**/*'],
 	plugins: [typography],
 }
