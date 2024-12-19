@@ -23,6 +23,7 @@ export default tseslint.config(
 		rules: {
 			'functional/prefer-immutable-types': 'warn',
 			'no-unused-vars': 'off',
+			'@typescript-eslint/triple-slash-reference': 'warn',
 		},
 	},
 	{
@@ -32,5 +33,5 @@ export default tseslint.config(
 			'@typescript-eslint/no-explicit-any': 'off',
 		},
 	},
-	{ ignores: ['dist', '.yarn'] },
+	{ ignores: ['dist', '.yarn', '.preview'] },
 )
