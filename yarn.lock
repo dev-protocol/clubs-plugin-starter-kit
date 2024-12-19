@@ -788,9 +788,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@devprotocol/clubs-core@npm:3.22.5":
-  version: 3.22.5
-  resolution: "@devprotocol/clubs-core@npm:3.22.5"
+"@devprotocol/clubs-core@npm:3.22.6":
+  version: 3.22.6
+  resolution: "@devprotocol/clubs-core@npm:3.22.6"
   dependencies:
     "@devprotocol/dev-kit": "npm:8.7.0"
     "@devprotocol/elements": "npm:1.5.3"
@@ -837,7 +837,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 10c0/fca24c3e35462a4a99f887e2c23cefe369b0171073b611ff844df5fcfd51c4d5bc6e83f69ba019b016eea9bdb800386aa12e23970f99cbaddab0aaa70e86fa35
+  checksum: 10c0/55c7f3ff5d8f0dab869ed97fc15051681e0b1e6abc1bf2eb035388a23e910439a9dacc7a9d70f64c7b4477f7b432de4715292e7dde7321f6a0e81b9029b1d9c2
   languageName: node
   linkType: hard
 
@@ -849,7 +849,7 @@ __metadata:
     "@astrojs/svelte": "npm:^6.0.0"
     "@astrojs/tailwind": "npm:^5.0.0"
     "@astrojs/vue": "npm:^4.0.0"
-    "@devprotocol/clubs-core": "npm:3.22.5"
+    "@devprotocol/clubs-core": "npm:3.22.6"
     "@devprotocol/dev-kit": "npm:8.7.0"
     "@devprotocol/util-ts": "npm:4.0.0"
     "@eslint/js": "npm:^9.12.0"
