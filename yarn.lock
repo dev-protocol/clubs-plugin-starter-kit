@@ -788,9 +788,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@devprotocol/clubs-core@npm:3.22.9":
-  version: 3.22.9
-  resolution: "@devprotocol/clubs-core@npm:3.22.9"
+"@devprotocol/clubs-core@npm:3.22.10":
+  version: 3.22.10
+  resolution: "@devprotocol/clubs-core@npm:3.22.10"
   dependencies:
     "@devprotocol/dev-kit": "npm:8.7.0"
     "@devprotocol/elements": "npm:1.5.3"
@@ -806,6 +806,7 @@ __metadata:
     js-base64: "npm:^3.7.2"
     lit: "npm:^3.0.0"
     marked: "npm:^10.0.0"
+    mp4box: "npm:^0.5.3"
     p-queue: "npm:^8.0.1"
     ramda: "npm:^0.30.0"
     react: "npm:^18.0.0"
@@ -837,7 +838,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 10c0/4a354992d4764e905dd9576f6b810411cdd8e1a1746fade28813713796137839152c6cbf9b408cce9fb553fcf6099b28957f203b1f0dab6cebd53b559fc3d753
+  checksum: 10c0/f4e6bc6e4284ad21bc727fea4a8afac4c509e68416541ac5bfe51cf0b9fd5933d8478dc7906170951f439ff975b3ae45a47a33cc743598fd101d5e16acf2ebbb
   languageName: node
   linkType: hard
 
@@ -849,7 +850,7 @@ __metadata:
     "@astrojs/svelte": "npm:^6.0.0"
     "@astrojs/tailwind": "npm:^5.0.0"
     "@astrojs/vue": "npm:^4.0.0"
-    "@devprotocol/clubs-core": "npm:3.22.9"
+    "@devprotocol/clubs-core": "npm:3.22.10"
     "@devprotocol/dev-kit": "npm:8.7.0"
     "@devprotocol/util-ts": "npm:4.0.0"
     "@eslint/js": "npm:^9.12.0"
@@ -7088,6 +7089,13 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: 10c0/46ea0f3ffa8bc6a5bc0c7081ffc3907777f0ed6516888d40a518c5111f8366d97d2678911ad1a6882bf592fa9de6c784fea32e1687bb94e1f4944170af48a5cf
+  languageName: node
+  linkType: hard
+
+"mp4box@npm:^0.5.3":
+  version: 0.5.3
+  resolution: "mp4box@npm:0.5.3"
+  checksum: 10c0/901d39813b3ea792bce34b7c111013304de4ea14376d4e42f70a96659e94a4eb00f22923619d045c96c6d27336f107456f00b2bfb05db015b872c7db0aecf53f
   languageName: node
   linkType: hard
 
