@@ -29,7 +29,7 @@
 		"prebuild": "rimraf dist",
 		"lint": "yarn lint:eslint && yarn lint:format",
 		"lint:eslint": "eslint . --fix",
-		"lint:format": "prettier --write '**/*.{ts,js,tsx,jsx,astro,vue,svelte,json,md,yml}'",
+		"lint:format": "prettier --write '**/*.{ts,js,mjs,cjs,tsx,jsx,astro,vue,svelte,json,md,yml}'",
 		"prepack": "yarn test --run && yarn prebuild && yarn build",
 		"prepare": "husky",
 		"typecheck": "astro check && tsc --noEmit && svelte-check && vue-tsc --noEmit --p tsconfig.vue.json"

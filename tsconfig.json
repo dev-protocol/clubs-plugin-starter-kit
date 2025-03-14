@@ -9,11 +9,5 @@
 		"jsx": "preserve",
 		"verbatimModuleSyntax": true
 	},
-	"include": [
-		"src/**/*",
-		".preview/**/*",
-		"rollup.config.js",
-		"tailwind.config.mjs",
-		"vitest.config.ts"
-	]
+	"include": ["src/**/*", ".preview/**/*", "rollup.config.js"]
 }
