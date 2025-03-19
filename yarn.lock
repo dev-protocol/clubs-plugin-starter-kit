@@ -200,17 +200,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.24.2":
-  version: 7.26.0
-  resolution: "@babel/code-frame@npm:7.26.0"
-  dependencies:
-    "@babel/helper-validator-identifier": "npm:^7.25.9"
-    js-tokens: "npm:^4.0.0"
-    picocolors: "npm:^1.0.0"
-  checksum: 10c0/46f7e367714be736b52ea3c01b24f47e2102e210fb83021d1c8237d8fc511b9538909e16e2fcdbb5cb6173e0794e28624309a59014e52fcfb7bde908f5284388
-  languageName: node
-  linkType: hard
-
 "@babel/code-frame@npm:^7.24.7, @babel/code-frame@npm:^7.25.7":
   version: 7.25.7
   resolution: "@babel/code-frame@npm:7.25.7"
@@ -6950,7 +6939,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.10, magic-string@npm:^0.30.11, magic-string@npm:^0.30.4":
+"magic-string@npm:^0.30.11, magic-string@npm:^0.30.4":
   version: 0.30.11
   resolution: "magic-string@npm:0.30.11"
   dependencies:
@@ -8834,18 +8823,18 @@ __metadata:
   linkType: hard
 
 "rollup-plugin-dts@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "rollup-plugin-dts@npm:6.1.1"
+  version: 6.2.0
+  resolution: "rollup-plugin-dts@npm:6.2.0"
   dependencies:
-    "@babel/code-frame": "npm:^7.24.2"
-    magic-string: "npm:^0.30.10"
+    "@babel/code-frame": "npm:^7.26.2"
+    magic-string: "npm:^0.30.17"
   peerDependencies:
     rollup: ^3.29.4 || ^4
     typescript: ^4.5 || ^5.0
   dependenciesMeta:
     "@babel/code-frame":
       optional: true
-  checksum: 10c0/2b042198ff00fb10c9c70087bbac9013f748dc34be0dbfcca82c6353884ead1467b4a8a37bafe9a8b9356479d43715c7cbc591eeb8e4112c583452431c1cb0a0
+  checksum: 10c0/54ee00a77c557818f23d9b47e65b1cd425a584f8d5c2f68f5a65148cf7ae3f6b6157095ef29725644398988670c129b5635d947e8b5bf67690f376297d342b39
   languageName: node
   linkType: hard
 
