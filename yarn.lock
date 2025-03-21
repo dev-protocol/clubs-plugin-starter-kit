@@ -8823,8 +8823,8 @@ __metadata:
   linkType: hard
 
 "rollup-plugin-dts@npm:^6.1.1":
-  version: 6.2.0
-  resolution: "rollup-plugin-dts@npm:6.2.0"
+  version: 6.2.1
+  resolution: "rollup-plugin-dts@npm:6.2.1"
   dependencies:
     "@babel/code-frame": "npm:^7.26.2"
     magic-string: "npm:^0.30.17"
@@ -8834,7 +8834,7 @@ __metadata:
   dependenciesMeta:
     "@babel/code-frame":
       optional: true
-  checksum: 10c0/54ee00a77c557818f23d9b47e65b1cd425a584f8d5c2f68f5a65148cf7ae3f6b6157095ef29725644398988670c129b5635d947e8b5bf67690f376297d342b39
+  checksum: 10c0/f21c8726470851a40e6ca68ae580261cee8bc6275775291b9c0fdf93b868ed54f12b11c8c0dddce2c14f5691d6032b6647d094835ab9b6789226efa60e1aa71e
   languageName: node
   linkType: hard
 
