@@ -1025,7 +1025,7 @@ __metadata:
     "@types/node": "npm:22.14.0"
     "@types/ramda": "npm:0.30.2"
     astro: "npm:5.6.1"
-    bignumber.js: "npm:9.2.0"
+    bignumber.js: "npm:9.2.1"
     dotenv: "npm:16.4.7"
     eslint: "npm:^9.12.0"
     eslint-config-prettier: "npm:10.1.1"
@@ -4415,10 +4415,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bignumber.js@npm:9.2.0":
-  version: 9.2.0
-  resolution: "bignumber.js@npm:9.2.0"
-  checksum: 10c0/d5b8254c6a8dd3ca82a0000c7fa0704e614fff5f5d02e1e75be1c559d1bbc22d47e97af1c8d38c147bc1a605e13f3d44bb72e67f0235013c12be8f1aced81349
+"bignumber.js@npm:9.2.1":
+  version: 9.2.1
+  resolution: "bignumber.js@npm:9.2.1"
+  checksum: 10c0/f50b2f2d633382ac5ab86f8baa90437cf6f14adfa8bd47b7159f1b893d19777853429565c33dfe6f8f695c5361c1e3cd2aae5067b99093d5608d671683c56cb4
   languageName: node
   linkType: hard
 
