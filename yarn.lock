@@ -1035,7 +1035,7 @@ __metadata:
     "@types/eslint__js": "npm:^8.42.3"
     "@types/node": "npm:22.15.3"
     "@types/ramda": "npm:0.30.2"
-    astro: "npm:5.7.5"
+    astro: "npm:5.7.7"
     bignumber.js: "npm:9.3.0"
     dotenv: "npm:16.5.0"
     eslint: "npm:^9.12.0"
@@ -4367,9 +4367,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.7.5":
-  version: 5.7.5
-  resolution: "astro@npm:5.7.5"
+"astro@npm:5.7.7":
+  version: 5.7.7
+  resolution: "astro@npm:5.7.7"
   dependencies:
     "@astrojs/compiler": "npm:^2.11.0"
     "@astrojs/internal-helpers": "npm:0.6.1"
@@ -4419,7 +4419,7 @@ __metadata:
     tinyglobby: "npm:^0.2.12"
     tsconfck: "npm:^3.1.5"
     ultrahtml: "npm:^1.6.0"
-    unifont: "npm:~0.2.0"
+    unifont: "npm:~0.4.0"
     unist-util-visit: "npm:^5.0.0"
     unstorage: "npm:^1.15.0"
     vfile: "npm:^6.0.3"
@@ -4436,7 +4436,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/c350269625ad5ccd7030d6a1071562849b0e715d2805e6f381fdfe43d0ba17e677a162343991321c6a09b67f09ccd45d261a5eacceff66308d4b5443ca6516e1
+  checksum: 10c0/a64953e5e866f7491a769954d9d674f0138213710f4a9f81a787bf216bf96f86ef166d9ca4ca281294521597e7482ca2d92a627067920bb16bde5ccf5346e13e
   languageName: node
   linkType: hard
 
@@ -10361,13 +10361,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unifont@npm:~0.2.0":
-  version: 0.2.0
-  resolution: "unifont@npm:0.2.0"
+"unifont@npm:~0.4.0":
+  version: 0.4.0
+  resolution: "unifont@npm:0.4.0"
   dependencies:
     css-tree: "npm:^3.0.0"
     ohash: "npm:^2.0.0"
-  checksum: 10c0/638b6ace1ed65fbd926022f01a16247b45b906c134241ecb665d0d18940d85dfddb160c74f0bd78e0ae0d3d2a3ff89e2bcaaa53ff01d5a35240edc23372d1b3d
+  checksum: 10c0/060bdff55da22b0f060a32e9ea51740d2e3e6293572fe595c8ef2b126874f48fc121cfc9bc40def60b44c6c43d3fb249c95963ae2d0497db219313e240b18025
   languageName: node
   linkType: hard
 
