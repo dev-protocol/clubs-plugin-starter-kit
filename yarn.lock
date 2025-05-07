@@ -1041,7 +1041,7 @@ __metadata:
     eslint: "npm:^9.12.0"
     eslint-config-prettier: "npm:10.1.2"
     eslint-plugin-functional: "npm:^9.0.0"
-    ethers: "npm:6.13.7"
+    ethers: "npm:6.14.0"
     globals: "npm:^16.0.0"
     husky: "npm:9.1.7"
     prettier: "npm:3.5.3"
@@ -6010,9 +6010,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ethers@npm:6.13.7":
-  version: 6.13.7
-  resolution: "ethers@npm:6.13.7"
+"ethers@npm:6.14.0":
+  version: 6.14.0
+  resolution: "ethers@npm:6.14.0"
   dependencies:
     "@adraffy/ens-normalize": "npm:1.10.1"
     "@noble/curves": "npm:1.2.0"
@@ -6021,7 +6021,7 @@ __metadata:
     aes-js: "npm:4.0.0-beta.5"
     tslib: "npm:2.7.0"
     ws: "npm:8.17.1"
-  checksum: 10c0/bb693e8714c6082ee2c1d2af8a209bbc10d83ca4a686de368e169bf1dc804e926be58280c4bdaf0c2e9a4d021317f0db694ecfa4040381728ca46d45427db2a7
+  checksum: 10c0/7da443719a21c0b071dbd7d47e50faa8fcacc746e2b5487a394992215457903b1d187279e7134b48414d2626d0dbbf58b20c3bb8d246c359aa0a7453b608d582
   languageName: node
   linkType: hard
 
