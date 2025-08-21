@@ -85,5 +85,5 @@
 		"vue": "3.5.19",
 		"vue-tsc": "^3.0.0"
 	},
-	"packageManager": "yarn@4.9.2"
+	"packageManager": "yarn@4.9.3"
 }
