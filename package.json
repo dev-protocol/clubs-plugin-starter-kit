@@ -60,7 +60,7 @@
 		"@types/eslint-config-prettier": "^6.11.3",
 		"@types/eslint__js": "^8.42.3",
 		"@types/node": "22.18.1",
-		"@types/ramda": "0.31.0",
+		"@types/ramda": "0.31.1",
 		"astro": "5.13.7",
 		"dotenv": "17.2.2",
 		"eslint": "^9.12.0",
