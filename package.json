@@ -48,7 +48,7 @@
 		"ethers": "^6.0.0"
 	},
 	"devDependencies": {
-		"@astrojs/check": "0.9.4",
+		"@astrojs/check": "0.9.5",
 		"@astrojs/svelte": "7.2.0",
 		"@astrojs/vue": "5.1.1",
 		"@devprotocol/clubs-core": "3.28.0",

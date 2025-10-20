@@ -42,9 +42,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/check@npm:0.9.4":
-  version: 0.9.4
-  resolution: "@astrojs/check@npm:0.9.4"
+"@astrojs/check@npm:0.9.5":
+  version: 0.9.5
+  resolution: "@astrojs/check@npm:0.9.5"
   dependencies:
     "@astrojs/language-server": "npm:^2.15.0"
     chokidar: "npm:^4.0.1"
@@ -54,7 +54,7 @@ __metadata:
     typescript: ^5.0.0
   bin:
     astro-check: dist/bin.js
-  checksum: 10c0/0e9b554413319faea379a0b79380ba29e96be4cc93ae5df9154d6a4470082b314c184ac32079bbe20c83a933801e942370261a44fa35742fa87db0281d9ffb87
+  checksum: 10c0/6d495d4a33a2000890dc8c886ad1715ab51f090713ec1659e12b2ff0518aa3f2d223e1ed40e90974dc6ca80aacb002d0e03e7857f4fc7f109d4ed4cc99db079e
   languageName: node
   linkType: hard
 
@@ -1088,7 +1088,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@devprotocol/clubs-plugin-starter-kit@workspace:."
   dependencies:
-    "@astrojs/check": "npm:0.9.4"
+    "@astrojs/check": "npm:0.9.5"
     "@astrojs/svelte": "npm:7.2.0"
     "@astrojs/vue": "npm:5.1.1"
     "@devprotocol/clubs-core": "npm:3.28.0"
