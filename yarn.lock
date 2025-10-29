@@ -153,18 +153,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/svelte@npm:7.2.0":
-  version: 7.2.0
-  resolution: "@astrojs/svelte@npm:7.2.0"
+"@astrojs/svelte@npm:7.2.1":
+  version: 7.2.1
+  resolution: "@astrojs/svelte@npm:7.2.1"
   dependencies:
     "@sveltejs/vite-plugin-svelte": "npm:^5.1.1"
     svelte2tsx: "npm:^0.7.42"
-    vite: "npm:^6.3.6"
+    vite: "npm:^6.4.1"
   peerDependencies:
     astro: ^5.0.0
     svelte: ^5.1.16
     typescript: ^5.3.3
-  checksum: 10c0/34b50ed4af1ba946c075625ba47699861b62b30a81de4b5fcf55b74c942b387d5575564bb6b43e1f2d1627a48bdc4bb91b304b005b248501e6516c9c319fd32b
+  checksum: 10c0/d66e15864e258bee53695caf55f6936eb784bf61278fbfcb88049c8a503ab14cf14cd0466bd9e003e1d9ab2473e7a04e0f10dcd75c236629a79cdc56d90e2b61
   languageName: node
   linkType: hard
 
@@ -183,19 +183,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/vue@npm:5.1.1":
-  version: 5.1.1
-  resolution: "@astrojs/vue@npm:5.1.1"
+"@astrojs/vue@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@astrojs/vue@npm:5.1.2"
   dependencies:
     "@vitejs/plugin-vue": "npm:5.2.1"
     "@vitejs/plugin-vue-jsx": "npm:^4.2.0"
     "@vue/compiler-sfc": "npm:^3.5.21"
-    vite: "npm:^6.3.6"
+    vite: "npm:^6.4.1"
     vite-plugin-vue-devtools: "npm:^7.7.7"
   peerDependencies:
     astro: ^5.0.0
     vue: ^3.2.30
-  checksum: 10c0/4914ae73e150884c0b4b887b667ba5a85085c8434185da11f78a9fae743e2a8d3c43647b75b8f6e5fd1d533cac99e702872ffa8d9003d5f6b91c106ddb02573a
+  checksum: 10c0/44826833e79edc88ab195fe9dfaf15fd8073a1181d24c2a6d650d996d979d4904f0fa6857693f0b4d00c8dd4a6606efda1b6e0404c8064558c8e4d322d25f9a2
   languageName: node
   linkType: hard
 
@@ -1089,8 +1089,8 @@ __metadata:
   resolution: "@devprotocol/clubs-plugin-starter-kit@workspace:."
   dependencies:
     "@astrojs/check": "npm:0.9.5"
-    "@astrojs/svelte": "npm:7.2.0"
-    "@astrojs/vue": "npm:5.1.1"
+    "@astrojs/svelte": "npm:7.2.1"
+    "@astrojs/vue": "npm:5.1.2"
     "@devprotocol/clubs-core": "npm:3.28.0"
     "@devprotocol/dev-kit": "npm:8.7.0"
     "@devprotocol/util-ts": "npm:4.0.0"
@@ -1103,7 +1103,7 @@ __metadata:
     "@types/eslint__js": "npm:^8.42.3"
     "@types/node": "npm:22.18.12"
     "@types/ramda": "npm:0.31.1"
-    astro: "npm:5.15.1"
+    astro: "npm:5.15.2"
     bignumber.js: "npm:9.3.1"
     dotenv: "npm:17.2.3"
     eslint: "npm:^9.12.0"
@@ -4524,9 +4524,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.15.1":
-  version: 5.15.1
-  resolution: "astro@npm:5.15.1"
+"astro@npm:5.15.2":
+  version: 5.15.2
+  resolution: "astro@npm:5.15.2"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
     "@astrojs/internal-helpers": "npm:0.7.4"
@@ -4583,7 +4583,7 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     unstorage: "npm:^1.17.0"
     vfile: "npm:^6.0.3"
-    vite: "npm:^6.3.6"
+    vite: "npm:^6.4.1"
     vitefu: "npm:^1.1.1"
     xxhash-wasm: "npm:^1.1.0"
     yargs-parser: "npm:^21.1.1"
@@ -4596,7 +4596,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/da7148411162dc709df8e0a679a10cc17c25f5d81904a4d439d2a08ed5b2e6295385d27f81046591b639661fbc818e8cd697eb1549d704faea31feb4481f2d03
+  checksum: 10c0/df09ea69ccdadc06bf788d6257408e7b51a83b192cebfa3e6140b3dcc309bdb4fa9ede8351189e88722aabbe3d86cf3cbb4cd7804b06b917b11ac35ed728b688
   languageName: node
   linkType: hard
 
@@ -10871,9 +10871,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.3.6":
-  version: 6.3.6
-  resolution: "vite@npm:6.3.6"
+"vite@npm:^6.4.1":
+  version: 6.4.1
+  resolution: "vite@npm:6.4.1"
   dependencies:
     esbuild: "npm:^0.25.0"
     fdir: "npm:^6.4.4"
@@ -10922,7 +10922,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/add701f1e72596c002275782e38d0389ab400c1be330c93a3009804d62db68097a936ca1c53c3301df3aaacfe5e328eab547060f31ef9c49a277ae50df6ad4fb
+  checksum: 10c0/77bb4c5b10f2a185e7859cc9a81c789021bc18009b02900347d1583b453b58e4b19ff07a5e5a5b522b68fc88728460bb45a63b104d969e8c6a6152aea3b849f7
   languageName: node
   linkType: hard
 
