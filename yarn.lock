@@ -153,9 +153,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/svelte@npm:7.2.3":
-  version: 7.2.3
-  resolution: "@astrojs/svelte@npm:7.2.3"
+"@astrojs/svelte@npm:7.2.4":
+  version: 7.2.4
+  resolution: "@astrojs/svelte@npm:7.2.4"
   dependencies:
     "@sveltejs/vite-plugin-svelte": "npm:^5.1.1"
     svelte2tsx: "npm:^0.7.45"
@@ -164,7 +164,7 @@ __metadata:
     astro: ^5.0.0
     svelte: ^5.1.16
     typescript: ^5.3.3
-  checksum: 10c0/62af48dda46e1cd13c050d0df9ff685ce66142256d5212a5cb310c8cf9c9a315856225a988592c5e5eee7331408d1510402791865a58966ea30340063ef3837d
+  checksum: 10c0/40e3e8f35a1f6d0a5a7b8ef301e6ad8c95367ab24baee78478b05cadd17355e1bf4b96bf5dcfe62c88cc1a20458ca97a656e7ef2a3176cabca8f5b13500d5d51
   languageName: node
   linkType: hard
 
@@ -1096,7 +1096,7 @@ __metadata:
   resolution: "@devprotocol/clubs-plugin-starter-kit@workspace:."
   dependencies:
     "@astrojs/check": "npm:0.9.6"
-    "@astrojs/svelte": "npm:7.2.3"
+    "@astrojs/svelte": "npm:7.2.4"
     "@astrojs/vue": "npm:5.1.3"
     "@devprotocol/clubs-core": "npm:3.28.0"
     "@devprotocol/dev-kit": "npm:8.7.0"
@@ -1110,7 +1110,7 @@ __metadata:
     "@types/eslint__js": "npm:^8.42.3"
     "@types/node": "npm:24.10.4"
     "@types/ramda": "npm:0.31.1"
-    astro: "npm:5.16.5"
+    astro: "npm:5.16.6"
     bignumber.js: "npm:9.3.1"
     dotenv: "npm:17.2.3"
     eslint: "npm:^9.12.0"
@@ -4693,9 +4693,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.16.5":
-  version: 5.16.5
-  resolution: "astro@npm:5.16.5"
+"astro@npm:5.16.6":
+  version: 5.16.6
+  resolution: "astro@npm:5.16.6"
   dependencies:
     "@astrojs/compiler": "npm:^2.13.0"
     "@astrojs/internal-helpers": "npm:0.7.5"
@@ -4766,7 +4766,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/6b61618f50ed12d337512f13ed020763a9df3c224762060266ca8386f32d77059850469fc5e8601fcd8fb83ba1d5071f57d5b66bf3eeaef30b5f91811925d6e8
+  checksum: 10c0/ac6aea51f861b51e87184a589bd343542e5395a5b7df85f52bafd4831b24f1d39796794d5a3ac88764e2a7f1de631352ce694a59f6feee811868d64665dddf5d
   languageName: node
   linkType: hard
 
