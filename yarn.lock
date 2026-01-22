@@ -1089,7 +1089,7 @@ __metadata:
     "@types/eslint__js": "npm:^8.42.3"
     "@types/node": "npm:24.10.9"
     "@types/ramda": "npm:0.31.1"
-    astro: "npm:5.16.12"
+    astro: "npm:5.16.13"
     bignumber.js: "npm:9.3.1"
     dotenv: "npm:17.2.3"
     eslint: "npm:^9.12.0"
@@ -4699,9 +4699,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.16.12":
-  version: 5.16.12
-  resolution: "astro@npm:5.16.12"
+"astro@npm:5.16.13":
+  version: 5.16.13
+  resolution: "astro@npm:5.16.13"
   dependencies:
     "@astrojs/compiler": "npm:^2.13.0"
     "@astrojs/internal-helpers": "npm:0.7.5"
@@ -4772,7 +4772,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/ff976e90be72a38d3965ddfb526e28fd8b8e90de4ee99c439fb5d5c1fcf9056b210df3422f9740d78af2401d407469ffffa3957bcd32a3c6999f2955a670a87a
+  checksum: 10c0/088c57055971683cb981d3b0803ecae41e83a2e88fb9d9a497d96b229d1dd67795c1175b81a0a4fe7356f67ce72f525b097c9fc05df93ee5b1cd742ba525b6d2
   languageName: node
   linkType: hard
 
