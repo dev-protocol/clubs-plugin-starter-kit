@@ -58,7 +58,7 @@
 		"@tailwindcss/vite": "^4.0.6",
 		"@types/dotenv": "8.2.3",
 		"@types/eslint-config-prettier": "^6.11.3",
-		"@types/eslint__js": "^8.42.3",
+		"@types/eslint__js": "^9.0.0",
 		"@types/node": "24.11.0",
 		"@types/ramda": "0.31.1",
 		"astro": "5.18.0",
