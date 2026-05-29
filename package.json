@@ -82,7 +82,7 @@
 		"typescript": "6.0.3",
 		"typescript-eslint": "^8.8.0",
 		"vitest": "^4.0.0",
-		"vue": "3.5.34",
+		"vue": "3.5.35",
 		"vue-tsc": "^3.0.0"
 	},
 	"packageManager": "yarn@4.15.0"
