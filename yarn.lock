@@ -1133,7 +1133,7 @@ __metadata:
     dotenv: "npm:17.4.2"
     eslint: "npm:^9.12.0"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-functional: "npm:^9.0.0"
+    eslint-plugin-functional: "npm:^10.0.0"
     ethers: "npm:6.16.0"
     globals: "npm:^17.0.0"
     husky: "npm:9.1.7"
@@ -6189,9 +6189,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-functional@npm:^9.0.0":
-  version: 9.0.5
-  resolution: "eslint-plugin-functional@npm:9.0.5"
+"eslint-plugin-functional@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "eslint-plugin-functional@npm:10.0.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.26.0"
     deepmerge-ts: "npm:^7.1.5"
@@ -6205,7 +6205,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/2177f1ffd1c6820f0b852b70c5e22ef1e45ec8393ec271c5fdec3bf49579f4aad869b2ad6fe0ce7884764113fc6c522182dd84f7a09b9f8dd9a53df08cbcf924
+  checksum: 10c0/f3c3163c554d0bc9385a84a6ca02787b635277c9dc6a5ffec9f1911a0a4d65c5c990d9b1117625660df0527dc55e9ebf103bb061b33e2836789166476a68d2d3
   languageName: node
   linkType: hard
 
